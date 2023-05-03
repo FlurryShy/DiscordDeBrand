@@ -107,3 +107,8 @@ div[aria-label="Help"]
 {
     display: none; 
 }
+
+/* Remove Nitro-option in settings */
+div[class*="premiumTab-"]{
+    display:none;
+}

@@ -110,11 +110,6 @@ div[class*="userProfileOuterThemed-"]{
     top:0px;   
 }
 
-/* Remove Big Nitro Button */
-a[href="/store"]{
-    display: none;
-}
-
 /* Fix positioning in user-profile panel in DMs */
 div[class*="avatarPositionPanel-"]{
     top:10px !important;
