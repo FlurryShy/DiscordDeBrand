@@ -93,9 +93,9 @@ div[class*="upsell"]{
 }
 
 /* Remove "show user profile" button in DMs, language dependent */
-div[aria-label*="Show User Profile"]{
+/* div[aria-label*="Show User Profile"]{
     display: none; 
-}
+}*/
 
 /* Remove video call button in DMs, language dependent */
 div[aria-label="Start Video Call"]{
@@ -103,8 +103,7 @@ div[aria-label="Start Video Call"]{
 }
 
 /* Remove help button, language dependent */
-div[aria-label="Help"]
-{
+div[aria-label="Help"]{
     display: none; 
 }
 
