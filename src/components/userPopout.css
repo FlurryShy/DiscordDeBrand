@@ -125,3 +125,8 @@ div[class*="badgelistGroup-"]{
 div[class*="accountProfileCard-"]{
     overflow:visible;
 }
+
+/* Fix for Profiles in settings */
+[class*="avatarUploader-"]{
+    top: -15px;
+}
