@@ -1,0 +1,44 @@
+/* If you do not want some things reverted, commend out imports like /* @import url("...") */
+
+/* [Recommended] Revert CSS variables: colors, fonts */
+@use "variables";
+
+/* Generated hardcoded color fixes */
+@use "hardcoded";
+
+/* Individual components: */
+
+/* Revert mentions */
+@use "components/mentions";
+
+/* Revert reactions */
+@use "components/reactions";
+
+/* Revert profile pictures */
+@use "components/pfps";
+
+/* Revert folders (default colors back to old blurple) */
+@use "components/folders";
+
+/* Revert windows wordmark */
+@use "components/wordmark";
+
+/* [Optional] Revert new user popouts */
+/* @use "components/userPopout"; */
+
+/* [Optional] Revert new user popouts */
+/* @use "components/roles"; */
+
+/* General changes: */
+
+/* Revert some BD specific elements */
+@use "general/bd";
+
+/* Revert some inputs */
+@use "general/inputs";
+
+/* Revert some SVGs (colors for smaller icons) */
+@use "general/svgs";
+
+/* Revert some other minor things */
+@use "general/other";

@@ -1,0 +1,27 @@
+/* Revert mentions and channel links */
+#app-mount .wrapper-1ZcZW- {
+  color: var(--brand-experiment-460);
+  background: var(--brand-experiment-10a);
+
+  text-decoration: none !important;
+  padding: 0 1px;
+}
+
+#app-mount .wrapper-1ZcZW-:hover {
+  background: var(--brand-experiment);
+  color: var(--brand-experiment-100);
+}
+
+/* Hide semi-transparent background if mentioned in message */
+/*.mentioned-Tre-dv .mention {
+  background: transparent !important;
+}*/
+
+/* Readd left padding for icons in mentions as our own padding removes it and breaks look */
+#app-mount .mention.iconMentionText-1_WCtN {
+  padding-left: 1.2rem;
+}
+
+#app-mount .mention.iconMention-3WxjBe {
+  padding-left: 1.3rem;
+}

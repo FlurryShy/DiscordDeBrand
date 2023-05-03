@@ -1,0 +1,24 @@
+/* Role Revert in user modal */
+.role-2TIOKu{ 
+  background: transparent;
+  border: 1px solid;
+  border-radius: 11px;
+}
+
+.roleCircle-1EgnFN {
+  margin-left: 0;
+}
+
+.addButton-1_dZYu.role-2TIOKu {
+  border-color: #4f545c;
+}
+
+.addButtonIcon-3HZ_2f {
+  width: 10px;
+  height: 10px;
+}
+.addButtonIcon-3HZ_2f>path {
+    d: path('M3 0h1v7H3zM0 3h7v1H0z');
+    color: #b9bbbe;
+    transform: scale(calc(24 / 7));
+}

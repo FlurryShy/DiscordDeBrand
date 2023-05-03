@@ -1,0 +1,56 @@
+/* Restyle the create server and discovery buttons to the old green */
+.circleIconButton-1VxDrg {
+  color: var(--old-green);
+}
+.circleIconButton-1VxDrg.selected-2r1Hvo {
+  color: white;
+  background-color: var(--old-green);
+}
+
+/* On switches to old green */
+.container-2nx-BQ[style*="opacity: 1; background-color: hsl(139"] {
+    background-color: var(--old-green) !important;
+}
+
+/* Text input focus border color is now focus / link, change back to original brand color */
+.input-2yCVqe.focused-1AtTHC, .input-2yCVqe:focus {
+  border-color: var(--brand-experiment);
+}
+
+/* Change all radio bars with the new green to the old green */
+/* In particular, this fixes the privacy and safety settings' 'keep me safe' option */
+.radioBar-3w9XY-[style*="--radio-bar-accent-color:hsl(139"] {
+  --radio-bar-accent-color: var(--old-green) !important;
+}
+
+/* Revert ping mention button being link colored (used to be brand) */
+.colorLink-2apWfY.size14-3fJ-ot.mentionButton-3C5YMI {
+  color: var(--brand-experiment) !important;
+}
+
+/* Change the 'get nitro' button in the emoji popup back to the old green */
+.lookFilled-yCfaCM.colorGreen-3y-Z79 {
+  background-color: var(--old-green);
+}
+
+/* Revert the 'Add Friend' button to the old green*/
+.item-3mHhwr.item-3XjbnG.themed-2-lozF[style*="background-color: hsl(139"] {
+    background-color: var(--old-green) !important;
+}
+
+/* Fixed "Add Friend" button to correct colors when selected */
+.item-3mHhwr.item-3XjbnG.themed-2-lozF[aria-selected*="true"][style*="color: hsl(139"] {
+  color: var(--old-green) !important;
+  background-color: #33524c !important;
+}
+
+/* Color picker default to blurple instead of new brand color */
+.colorPickerSwatch-RTUGRR.default-3ISV7m {
+  background-color: var(--brand-experiment) !important;
+}
+
+/* Revert the progress bar when uploading files back to blurple */
+.progressBar-1T6LYX {
+    background-color: var(--brand-experiment) !important;
+}
+
