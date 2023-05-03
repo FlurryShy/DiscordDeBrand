@@ -55,6 +55,7 @@
 
 
 /* -- Very minor things you might want to disable or might not care about -- */
+/* Might put them in a separate file */
 
 /* Shame the new guy badge */
 .newMemberBadge-3PdStX{
@@ -89,4 +90,20 @@ div[class*="upsell"]{
 /* Beta Tag color */
 .textBadge-1fdDPJ{
    background-color: #4e5d94 !important; 
+}
+
+/* Remove "show user profile" button in DMs, language dependent */
+div[aria-label*="Show User Profile"]{
+    display: none; 
+}
+
+/* Remove video call button in DMs, language dependent */
+div[aria-label="Start Video Call"]{
+    display: none; 
+}
+
+/* Remove help button, language dependent */
+div[aria-label="Help"]
+{
+    display: none; 
 }

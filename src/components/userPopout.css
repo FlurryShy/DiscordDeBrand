@@ -114,3 +114,19 @@ div[class*="userProfileOuterThemed-"]{
 a[href="/store"]{
     display: none;
 }
+
+/* Fix positioning in user-profile panel in DMs */
+div[class*="avatarPositionPanel-"]{
+    top:10px !important;
+}
+div[class*="badgelistGroup-"]{
+    margin-top: 65px;
+}
+
+/* Fix for own profile-card in "my account" */
+.avatar-3mTjvZ{
+    top:-10px;
+}
+div[class*="accountProfileCard-"]{
+    overflow:visible;
+}
