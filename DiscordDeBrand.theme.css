@@ -71,6 +71,11 @@ button[aria-label="Send a gift"] {
     display: none;
 }
 
+/* Remove Big Nitro Button */
+a[href="/store"]{
+    display: none;
+}
+
 /* Public server thing */
 .tutorialContainer-2jwoiB+div { 
 	display: none;

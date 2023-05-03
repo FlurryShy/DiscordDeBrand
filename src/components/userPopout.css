@@ -94,19 +94,23 @@ div[class*="userProfileOuterThemed-"]{
 }
 
 /* Allow for the profile picture to go beyond the popout */
+.userProfileOuter-1K_BYU,
 div[class*="userProfileOuterUnthemed-"],
 div[class*="userProfileOuterThemed-"]{
       overflow:visible;  
 }
 
 /* Moves the badges / buttons to the right height */
-.headerTop-1PNKck
-{
+.headerTop-1PNKck{
     top:70px;       
 }
 
 /* Moves the profile picture / buttons to the right height */
-.avatar-3QF_VA
-{
+.avatar-3QF_VA{
     top:0px;   
+}
+
+/* Remove Big Nitro Button */
+a[href="/store"]{
+    display: none;
 }
