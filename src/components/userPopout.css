@@ -1,15 +1,112 @@
-.profileBanner-33-uE1 {
-  background: none;
+/* Remove Top-Banner (Image / color( */
+.bannerSVGWrapper-2CLfzN{
+  display: none; 
 }
 
-.avatarWrapperNormal-2tu8Ts {
-  left: 35%;
+/* Moves the avatar to the appropriate position */
+div[class*="avatarPositionPremiumBanner-"],
+div[class*="avatarPositionNormal-"]{
+    top:-25px !important;
 }
 
-.headerTop-2y3V6H > .profileBadges-1dm1_q {
+/* Removes provile-badges */
+/* div[class*="profileBadges"] {
   display: none;
+}*/
+
+/* Remove theming from profile-popout */
+div[class*="userProfileOuterThemed-"]{
+    --profile-gradient-primary-color: var(--background-secondary-alt) !important;
+    --profile-gradient-secondary-color: var(--background-secondary-alt) !important;
+    --profile-gradient-overlay-color: transparent !important;
+    --profile-gradient-button-color: var(--button-secondary-background) !important;
+    --profile-avatar-border-color: var(--background-secondary-alt) !important;
+    --profile-message-input-border-color: var(--background-modifier-accent) !important;
+    --profile-body-background-color: var(--background-floating) !important;
+    --profile-body-divider-color: var(--background-modifier-accent) !important;
+    --profile-role-pill-background-color: var(--background-secondary-alt) !important;
+    --profile-role-pill-border-color: var(--interactive-normal) !important;
+    --account-profile-popout-menu-hover: var(--brand-experiment-560) !important;
+    --header-primary: hsl(0,calc(var(--saturation-factor, 1)*0%),100%) !important;
+    --header-secondary: hsl(216,calc(var(--saturation-factor, 1)*3.7%),73.5%) !important;
+    --text-normal: hsl(210,calc(var(--saturation-factor, 1)*2.9%),86.7%) !important;
+    --text-muted: hsl(214,calc(var(--saturation-factor, 1)*4%),65.3%) !important;
+    --text-link: hsl(197,calc(var(--saturation-factor, 1)*100%),47.8%) !important;
+    --text-link-low-saturation: hsl(197,calc(var(--saturation-factor, 1)*100%),52.9%) !important;
+    --text-positive: hsl(139,calc(var(--saturation-factor, 1)*51.6%),52.2%) !important;
+    --text-warning: hsl(38,calc(var(--saturation-factor, 1)*95.7%),54.1%) !important;
+    --text-danger: hsl(359,calc(var(--saturation-factor, 1)*82%),73.9%) !important;
+    --text-brand: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%) !important;
+    --interactive-normal: hsl(216,calc(var(--saturation-factor, 1)*3.7%),73.5%) !important;
+    --interactive-hover: hsl(210,calc(var(--saturation-factor, 1)*2.9%),86.7%) !important;
+    --interactive-active: hsl(0,calc(var(--saturation-factor, 1)*0%),100%) !important;
+    --interactive-muted: hsl(217,calc(var(--saturation-factor, 1)*7.6%),33.5%) !important;
+    --background-primary: hsl(220,calc(var(--saturation-factor, 1)*7.7%),22.9%) !important;
+    --background-secondary: hsl(223,calc(var(--saturation-factor, 1)*6.9%),19.8%) !important;
+    --background-secondary-alt: hsl(220,calc(var(--saturation-factor, 1)*6.8%),17.3%)! important;
+    --background-tertiary: hsl(216,calc(var(--saturation-factor, 1)*7.2%),13.5%) !important;
+    --background-accent: hsl(217,calc(var(--saturation-factor, 1)*7.6%),33.5%) !important;
+    --background-floating: hsl(225,calc(var(--saturation-factor, 1)*7.7%),10.2%) !important;
+    --background-nested-floating: hsl(223,calc(var(--saturation-factor, 1)*6.9%),19.8%) !important;
+    --background-mobile-primary: hsl(220,calc(var(--saturation-factor, 1)*7.7%),22.9%) !important;
+    --background-mobile-secondary: hsl(223,calc(var(--saturation-factor, 1)*6.9%),19.8%)! important;
+    --chat-background: hsl(220,calc(var(--saturation-factor, 1)*7.7%),22.9%) !important;
+    --chat-border: hsl(216,calc(var(--saturation-factor, 1)*7.2%),13.5%) !important;
+    --chat-input-container-background: hsl(220,calc(var(--saturation-factor, 1)*7.7%),22.9%) !important;
+    --background-modifier-hover: hsla(217,calc(var(--saturation-factor, 1)*7.6%),33.5%,0.4) !important;
+    --background-modifier-active: hsla(217,calc(var(--saturation-factor, 1)*7.6%),33.5%,0.48) !important;
+    --background-modifier-selected: hsla(217,calc(var(--saturation-factor, 1)*7.6%),33.5%,0.6) !important;
+    --background-modifier-accent: hsla(217,calc(var(--saturation-factor, 1)*7.6%),33.5%,0.48) !important;
+    --info-positive-background: hsla(139,calc(var(--saturation-factor, 1)*47.3%),43.9%,0.1) !important;
+    --info-positive-foreground: hsl(139,calc(var(--saturation-factor, 1)*47.3%),43.9%) !important;
+    --info-positive-text: hsl(0,calc(var(--saturation-factor, 1)*0%),100%) !important;
+    --info-warning-background: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.1) !important;
+    --info-warning-foreground: hsl(38,calc(var(--saturation-factor, 1)*95.7%),54.1%) !important;
+    --info-warning-text: hsl(0,calc(var(--saturation-factor, 1)*0%),100%) !important;
+    --info-danger-background: hsla(359,calc(var(--saturation-factor, 1)*82.6%),59.4%,0.1) !important;
+    --info-danger-foreground: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%) !important;
+    --info-danger-text: hsl(0,calc(var(--saturation-factor, 1)*0%),100%) !important;
+    --info-help-background: hsla(197,calc(var(--saturation-factor, 1)*100%),47.8%,0.1) !important;
+    --info-help-foreground: hsl(197,calc(var(--saturation-factor, 1)*100%),47.8%) !important;
+    --info-help-text: hsl(0,calc(var(--saturation-factor, 1)*0%),100%) !important;
+    --status-positive-background: hsl(139,calc(var(--saturation-factor, 1)*47.1%),33.3%) !important;
+    --status-positive-text: hsl(0,calc(var(--saturation-factor, 1)*0%),100%) !important;
+    --status-warning-background: hsl(38,calc(var(--saturation-factor, 1)*95.7%),54.1%) !important;
+    --status-warning-text: hsl(0,calc(var(--saturation-factor, 1)*0%),0%) !important;
+    --status-danger-background: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%) !important;
+    --status-danger-text: hsl(0,calc(var(--saturation-factor, 1)*0%),100%) !important;
+    --status-danger: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%) !important;
+    --status-positive: hsl(139,calc(var(--saturation-factor, 1)*47.3%),43.9%) !important;
 }
 
-.headerText-2WJ44e {
-  text-align: center;
+/* circle behind user-status might otherwise be white depending on user-style */
+.wrapper-3Un6-K > svg > circle{
+    fill:black;
+}
+
+
+
+/* -- Big Poput -- */
+
+/* Moves head to right height, since we removed the top banner / image */
+.header-S26rhB{
+    top:-55px;
+}
+
+/* Allow for the profile picture to go beyond the popout */
+div[class*="userProfileOuterUnthemed-"],
+div[class*="userProfileOuterThemed-"]{
+      overflow:visible;  
+}
+
+/* Moves the badges / buttons to the right height */
+.headerTop-1PNKck
+{
+    top:70px;       
+}
+
+/* Moves the profile picture / buttons to the right height */
+.avatar-3QF_VA
+{
+    top:0px;   
 }

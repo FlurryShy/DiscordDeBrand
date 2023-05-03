@@ -42,3 +42,17 @@
 .reaction-3vwAF2.reactionMe-1PwQAc:hover {
   background-color: var(--brand-experiment-40a);
 }
+
+/* Remove super reactions */
+div[aria-label="Add Super Reaction"]{
+     display: none;     
+}
+
+div[aria-label*="Super reacted"]{
+     display: none;        
+}
+
+div[id*="message-actions-add-reaction-1"], 
+div[id*="message-add-reaction-1"]{
+     display: none; 
+}

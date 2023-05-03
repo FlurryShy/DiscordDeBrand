@@ -331,4 +331,10 @@ body {
   color: var(--old-green);
 }
 
+/* Selected text */
+::selection {
+    background-color: #4e5d94;
+}
+
+
 /* Import all the CSS files */

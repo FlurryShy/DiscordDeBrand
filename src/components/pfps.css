@@ -14,3 +14,11 @@
 [src="/assets/3c6ccb83716d1e4fb91d3082f6b21d77.png"] {
   content: url(https://discord.com/assets/1cbd08c76f8af6dddce02c5138971129.png);
 }
+
+/* Remove profile picture decorations */
+svg[class*="avatarDecoration-"]{
+    display: none;     
+}
+img[class*="avatarDecoration-"]{
+    display: none;     
+}
