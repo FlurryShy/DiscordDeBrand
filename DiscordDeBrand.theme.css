@@ -10,45 +10,45 @@
 @import url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/source.min.css);
 
 /* [Recommended] Revert CSS variables: colors, fonts */
-@import url('https://raw.githubusercontent.com/FlurryShy/DiscordDeBrand/main/src/variables.css');
+@import url('https://FlurryShy.github.io/DiscordDeBrand/src/variables.css');
 
 /* Generated hardcoded color fixes */
-@import url('https://raw.githubusercontent.com/FlurryShy/DiscordDeBrand/main/src/hardcoded.css');
+@import url('https://FlurryShy.github.io/DiscordDeBrand/src/hardcoded.css');
 
 
 /* Individual components: */
 
 /* Revert mentions */
-@import url('https://raw.githubusercontent.com/FlurryShy/DiscordDeBrand/main/src/components/mentions.css');
+@import url('https://FlurryShy.github.io/DiscordDeBrand/src/components/mentions.css');
 
 /* Revert reactions */
-@import url('https://raw.githubusercontent.com/FlurryShy/DiscordDeBrand/main/src/components/reactions.css');
+@import url('https://FlurryShy.github.io/DiscordDeBrand/src/components/reactions.css');
 
 /* Revert profile pictures */
-@import url('https://raw.githubusercontent.com/FlurryShy/DiscordDeBrand/main/src/components/pfps.css');
+@import url('https://FlurryShy.github.io/DiscordDeBrand/src/components/pfps.css');
 
 /* Revert folders (default colors back to old blurple) */
-@import url('https://raw.githubusercontent.com/FlurryShy/DiscordDeBrand/main/src/components/folders.css');
+@import url('https://FlurryShy.github.io/DiscordDeBrand/src/components/folders.css');
 
 /* Revert windows wordmark */
-@import url('https://raw.githubusercontent.com/FlurryShy/DiscordDeBrand/main/src/components/wordmark.css');
+@import url('https://FlurryShy.github.io/DiscordDeBrand/src/components/wordmark.css');
 
 /* [Optional] Revert new user popouts */
-/* @import url('https://raw.githubusercontent.com/FlurryShy/DiscordDeBrand/main/src/components/userPopout.css'); */
+/* @import url('https://FlurryShy.github.io/DiscordDeBrand/src/components/userPopout.css'); */
 
 /* [Optional] Revert new role designs */
-/* @import url('https://raw.githubusercontent.com/FlurryShy/DiscordDeBrand/main/src/components/roles.css'); */
+/* @import url('https://FlurryShy.github.io/DiscordDeBrand/src/components/roles.css'); */
 
 /* General changes: */
 
 /* Revert some BD specific elements */
-@import url('https://raw.githubusercontent.com/FlurryShy/DiscordDeBrand/main/src/general/bd.css');
+@import url('https://FlurryShy.github.io/DiscordDeBrand/src/general/bd.css');
 
 /* Revert some inputs */
-@import url('https://raw.githubusercontent.com/FlurryShy/DiscordDeBrand/main/src/general/inputs.css');
+@import url('https://FlurryShy.github.io/DiscordDeBrand/src/general/inputs.css');
 
 /* Revert some SVGs (colors for smaller icons) */
-@import url('https://raw.githubusercontent.com/FlurryShy/DiscordDeBrand/main/src/general/svgs.css');
+@import url('https://FlurryShy.github.io/DiscordDeBrand/src/general/svgs.css');
 
 /* Revert some other minor things */
-@import url('https://raw.githubusercontent.com/FlurryShy/DiscordDeBrand/main/src/general/other.css');
+@import url('https://FlurryShy.github.io/DiscordDeBrand/src/general/other.css');
