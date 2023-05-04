@@ -105,6 +105,11 @@ div[class*="userProfileOuterThemed-"]{
     top:70px;       
 }
 
+/* Min-height for badges. if no badges the pfp will be to low */
+div[class*="profileBadges"]{
+    min-height: 30px;
+}
+
 /* Moves the profile picture / buttons to the right height */
 .avatar-3QF_VA{
     top:0px;   

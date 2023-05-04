@@ -33,3 +33,9 @@
 [src="/assets/c8d8bfacc6311892e73219a74e9cd164.svg"] {
   content: url("https://flurryshy.github.io/DiscordDeBrand/assets/report_submitted.png");
 }
+
+/* Change the community updates pfp to the report submitted logo */
+[src="https://cdn.discordapp.com/avatars/796599194923958284/268328355e7efe079bbc991dba0a68b0.webp?size=80"],
+[src="/assets/4c22bea607083fd1b4da0108f6bce9ee.png"] {
+  content: url("https://flurryshy.github.io/DiscordDeBrand/assets/report_submitted.png");
+}
