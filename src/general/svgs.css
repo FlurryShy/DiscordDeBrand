@@ -35,7 +35,7 @@
 }
 
 /* Change the community updates pfp to the report submitted logo */
-[src="https://cdn.discordapp.com/avatars/796599194923958284/268328355e7efe079bbc991dba0a68b0.webp?size=80"],
+[src*="https://cdn.discordapp.com/avatars/796599194923958284/268328355e7efe079bbc991dba0a68b0.webp"],
 [src="/assets/4c22bea607083fd1b4da0108f6bce9ee.png"] {
   content: url("https://flurryshy.github.io/DiscordDeBrand/assets/report_submitted.png");
 }
