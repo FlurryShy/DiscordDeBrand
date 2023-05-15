@@ -48,7 +48,7 @@ div[aria-label="Add Super Reaction"]{
      display: none;     
 }
 
-div[aria-label*="Super reacted"]{
+div[aria-label*="Super react"]{
      display: none;        
 }
 
