@@ -123,6 +123,6 @@ div[class*="premiumTab-"]{
 }
 
 /* Remove Birthday BS */
-[data-list-item-id*="private-channels-uid_22___activities"]{
+[href="/activities"]{
     display:none;
 }
