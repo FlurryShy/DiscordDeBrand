@@ -111,3 +111,18 @@ div[aria-label="Help"]{
 div[class*="premiumTab-"]{
     display:none;
 }
+
+/* Remove Activities, language dependent */
+[aria-label*="Start an Activity"]{
+  display:none;
+}
+
+/* Remove Soundboard, language dependent */
+[aria-label*="Open Soundboard"]{
+  display:none;
+}
+
+/* Remove Birthday BS */
+[data-list-item-id*="private-channels-uid_22___activities"]{
+    display:none;
+}

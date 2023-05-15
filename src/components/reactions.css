@@ -52,6 +52,10 @@ div[aria-label*="Super reacted"]{
      display: none;        
 }
 
+div[class*="effectsWrapper-"]{
+  display:none;
+}
+
 div[id*="message-actions-add-reaction-1"], 
 div[id*="message-add-reaction-1"]{
      display: none; 
