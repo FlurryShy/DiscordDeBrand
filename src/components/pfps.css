@@ -22,3 +22,8 @@ svg[class*="avatarDecoration-"]{
 img[class*="avatarDecoration-"]{
     display: none;     
 }
+
+/* Birthday decorations upsell... */
+.wrapper-C1y4Sz{
+     display: none;        
+}
