@@ -4,7 +4,7 @@
 }
 
 /* Moves the avatar to the appropriate position */
-div[class*="avatarPositionPremiumBanner-"],
+div[class*="avatarPositionPremium"],
 div[class*="avatarPositionNormal-"]{
     top:-25px !important;
 }
