@@ -48,15 +48,22 @@ div[aria-label="Add Super Reaction"]{
      display: none;     
 }
 
-div[aria-label*="uper react"]{
-     display: none;        
-}
-
-div[class*="effectsWrapper-"]{
-  display:none;
-}
-
 div[id*="message-actions-add-reaction-1"], 
 div[id*="message-add-reaction-1"]{
      display: none; 
 }
+
+/* Removes Super Reaction Animations On Hover... by  ShadowDevilsAvenged#9604, betterdsicord server */
+.hideEmoji-3W3sEI {
+  opacity: 1;
+}
+
+.effect-3LmGg0 svg {
+  transform: none !important;
+}
+
+.effect-3LmGg0 g {
+  clip-path: none !important;
+  transform: none;
+  opacity: 0;
+

@@ -4,7 +4,7 @@
   * @basedon https://github.com/Goose-Nest/GT-RevertRebrand
   * @description Tries to revert Discords visual changes to pre-rebrand times.
   * @website https://github.com/FlurryShy/DiscordDeBrand
-  * @version 0.1
+  * @version 0.2
 */
 
 @import url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/source.min.css);
@@ -125,4 +125,10 @@ div[class*="premiumTab-"]{
 /* Remove Birthday BS */
 [href="/activities"]{
     display:none;
+}
+
+/* Remove new emoji before channel name BS... by SmolAlli#2706, betterdsicord server */
+[class*="mainContentWithChannelEmoji"] > [class*="channelEmojiRightOfIcon"] {
+    display: none;
+    padding: 6px 0;
 }
