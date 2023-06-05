@@ -132,3 +132,8 @@ div[class*="premiumTab-"]{
     display: none;
     padding: 6px 0;
 }
+
+/* Remove "new" tag on newly created channels */
+div[class*="newChannel-"]{
+    display: none;
+}
