@@ -53,17 +53,16 @@ div[id*="message-add-reaction-1"]{
      display: none; 
 }
 
-/* Removes Super Reaction Animations On Hover... by  ShadowDevilsAvenged#9604, betterdsicord server */
-.hideEmoji-3W3sEI {
-  opacity: 1;
+/* Removes Super Reaction Animations On Hover... */
+[class*="shakeReaction-"]{
+    animation: none !important;
 }
-
-.effect-3LmGg0 svg {
-  transform: none !important;
+[class*="reaction-"]{
+    background: var(--background-secondary) !important;
 }
-
-.effect-3LmGg0 g {
-  clip-path: none !important;
-  transform: none;
-  opacity: 0;
-
+[class*="burstGlow-"]{
+    box-shadow: none !important;
+}
+[class*="hideEmoji-"]{
+    opacity: 1;
+}
