@@ -137,3 +137,8 @@ div[class*="premiumTab-"]{
 div[class*="newChannel-"]{
     display: none;
 }
+
+/* Remove onboarding steps banner */
+div[class*="newMemberBanner-"]{
+    display: none;
+}
