@@ -36,6 +36,7 @@
 
 /* Change the community updates pfp and moderator badge to the report submitted logo */
 [src*="https://cdn.discordapp.com/role-icons/910932173228503140/d44225876fd0d015b7a6e80c42cf1578.webp"],
+[src*="https://cdn.discordapp.com/avatars/796599194923958284/60f0ca1640cd245236597748d07a7b55.webp"],
 [src*="https://cdn.discordapp.com/avatars/796599194923958284/268328355e7efe079bbc991dba0a68b0.webp"],
 [src="/assets/4c22bea607083fd1b4da0108f6bce9ee.png"] {
   content: url("https://flurryshy.github.io/DiscordDeBrand/assets/report_submitted.png");
