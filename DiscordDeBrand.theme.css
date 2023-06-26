@@ -142,3 +142,8 @@ div[class*="newChannel-"]{
 div[class*="newMemberBanner-"]{
     display: none;
 }
+
+/* Remove the annoying community-badge on servers */
+[class*="flowerStarContainer-"]{
+    display:none;
+}
