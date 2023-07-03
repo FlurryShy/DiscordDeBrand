@@ -69,3 +69,11 @@ div[id*="message-add-reaction-1"]{
 [class*="effectsWrapper-"]{
     display:none;
 }
+[class*="burstReactionTooltipPrompt-3XAM1h"]
+{
+    display:none;
+}
+[class*="burstReactionTooltipSpacer"]{
+  border-bottom: 0px;
+  background:rgb(35, 37, 41);
+}
