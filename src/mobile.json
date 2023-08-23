@@ -75,9 +75,6 @@
       "TEXT_DANGER": [
           "#f04747"
       ],
-      "KEYBOARD": [
-          "#36393F"
-      ],
       "CHANNEL_ICON": [
           "#8E9297"
       ],
@@ -102,7 +99,7 @@
       "PRIMARY_630": "#2F3136",
       "PRIMARY_660": "#292B2F",
       "PRIMARY_700": "#202225",
-      "PRIMARY_800": "#36393f",
+      "PRIMARY_800": "#292b2f",
   
       "BRAND_260": "#d1d9f3",
       "BRAND_360": "#a5b3e7",
