@@ -1,0 +1,14 @@
+{
+    "name": "Fuck off profile colors",
+    "description": "Remove profile colors",
+    "authors": [
+        {
+            "name": "FlurryShy",
+            "id": "132211007253774336"
+        }
+    ],
+    "main": "src/index.js",
+    "vendetta": {
+        "icon": "ic_theme_24px"
+    }
+}
