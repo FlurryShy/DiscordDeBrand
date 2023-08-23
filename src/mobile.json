@@ -23,18 +23,6 @@
       "TEXT_LINK": [
           "#00aafc"
       ],
-      "INTERACTIVE_NORMAL": [
-          "#b5bac1"
-      ],
-      "INTERACTIVE_HOVER": [
-          "#dbdee1"
-      ],
-      "INTERACTIVE_ACTIVE": [
-          "#ffffff"
-      ],
-      "INTERACTIVE_MUTED": [
-          "#4F545C" 
-      ],
       "BACKGROUND_PRIMARY": [
           "#292b2f"
       ],
