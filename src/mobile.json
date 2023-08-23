@@ -15,7 +15,7 @@
           "#b5bac1"
       ],
       "TEXT_NORMAL": [
-          "#dae0f5"
+          "#dbdee1"
       ],
       "TEXT_MUTED": [
           "#8E9297"
@@ -27,7 +27,7 @@
           "#b5c1ec"
       ],
       "INTERACTIVE_HOVER": [
-          "#dae0f5"
+          "#dbdee1"
       ],
       "INTERACTIVE_ACTIVE": [
           "#ffffff"
@@ -48,7 +48,7 @@
           "#202225"
       ],
       "BACKGROUND_ACCENT": [
-          "#dae0f5"
+          "#41434a"
       ],
       "BACKGROUND_FLOATING": [
           "#36393f"
