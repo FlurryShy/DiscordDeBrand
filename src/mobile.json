@@ -9,16 +9,16 @@
     ],
     "semanticColors": {
       "HEADER_PRIMARY": [
-          "#7289da"
+          "#FF00B0F4"
       ],
       "HEADER_SECONDARY": [
-          "#7289da"
+          "#FF00B0F4"
       ],
       "TEXT_NORMAL": [
           "#dae0f5"
       ],
       "TEXT_MUTED": [
-          "#a5b3e7"
+          "#FF5CCCF8"
       ],
       "TEXT_LINK": [
           "#00aafc"
@@ -33,7 +33,7 @@
           "#ffffff"
       ],
       "INTERACTIVE_MUTED": [
-          "#a5b3e7" 
+          "#FF5CCCF8" 
       ],
       "BACKGROUND_PRIMARY": [
           "#292b2f"
@@ -45,7 +45,7 @@
           "#36393f"
       ],
       "BACKGROUND_TERTIARY": [
-          "#292b2f"
+          "#202225"
       ],
       "BACKGROUND_ACCENT": [
           "#dae0f5"
@@ -64,19 +64,19 @@
       ],
      
       "BACKGROUND_MESSAGE_HOVER": [
-          "#292b2f"
+          "#4F545C"
       ],
       "BACKGROUND_MODIFIER_HOVER": [
-          "#292b2f"
+          "#4F545C"
       ],
       "BACKGROUND_MODIFIER_ACTIVE": [
-          "#36393f"
+          "#4F545C"
       ],
       "BACKGROUND_MODIFIER_SELECTED": [
           "#dae0f5"
       ],
       "BACKGROUND_MODIFIER_ACCENT": [
-          "#36393f"
+          "#4F545C"
       ],
       "CHANNELTEXTAREA_BACKGROUND": [
           "#5c6fb1"
@@ -85,36 +85,36 @@
           "#b5c1ec"
       ],
       "TEXT_DANGER": [
-          "#BF616A"
+          "#f04747"
       ],
       "KEYBOARD": [
-          "#292b2f"
+          "#36393F"
       ],
       "CHANNEL_ICON": [
           "#b5c1ec"
       ],
       "CHAT_BACKGROUND": [
-          "#292b2f"
+          "#36393F"
       ],
       "SPOILER_HIDDEN_BACKGROUND": [
           "#dae0f5"
       ],
       "SPOILER_REVEALED_BACKGROUND": [
-          "#3b4770"
+          "#005B7E"
       ]
   },
   "rawColors": {
-      "PRIMARY_100": "#f8f9fd",
-      "PRIMARY_200": "#e3e7f8",
-      "PRIMARY_300": "#c7d0f0",
-      "PRIMARY_360": "#a5b3e7",
-      "PRIMARY_400": "#8ea1e1",
-      "PRIMARY_500": "#7289da",
-      "PRIMARY_600": "#292b2f",
-      "PRIMARY_630": "#36393f",
-      "PRIMARY_660": "#3b4770",
-      "PRIMARY_700": "#2e3757",
-      "PRIMARY_800": "#222941",
+      "PRIMARY_100": "#F6F6F7",
+      "PRIMARY_200": "#DCDDDE",
+      "PRIMARY_300": "#B9BBBE",
+      "PRIMARY_360": "#8E9297",
+      "PRIMARY_400": "#72767D",
+      "PRIMARY_500": "#4F545C",
+      "PRIMARY_600": "#36393F",
+      "PRIMARY_630": "#2F3136",
+      "PRIMARY_660": "#292B2F",
+      "PRIMARY_700": "#202225",
+      "PRIMARY_800": "#36393f",
   
       "BRAND_260": "#d1d9f3",
       "BRAND_360": "#a5b3e7",
