@@ -24,7 +24,7 @@
           "#00aafc"
       ],
       "INTERACTIVE_NORMAL": [
-          "#b5c1ec"
+          "#b5bac1"
       ],
       "INTERACTIVE_HOVER": [
           "#dbdee1"
@@ -73,7 +73,7 @@
           "#4F545C"
       ],
       "BACKGROUND_MODIFIER_SELECTED": [
-          "#dae0f5"
+          "#4F545C"
       ],
       "BACKGROUND_MODIFIER_ACCENT": [
           "#4F545C"
@@ -97,7 +97,7 @@
           "#36393F"
       ],
       "SPOILER_HIDDEN_BACKGROUND": [
-          "#dae0f5"
+          "#4F545C"
       ],
       "SPOILER_REVEALED_BACKGROUND": [
           "#005B7E"
