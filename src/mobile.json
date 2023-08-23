@@ -1,0 +1,141 @@
+{
+    "name": "Debrand",
+    "description": "Debrand for Vendetta mobile client",
+    "authors": [
+        {
+            "name": "@FlurryShy",
+            "id": "132211007253774336"
+        }
+    ],
+    "semanticColors": {
+      "HEADER_PRIMARY": [
+          "#7289da"
+      ],
+      "HEADER_SECONDARY": [
+          "#7289da"
+      ],
+      "TEXT_NORMAL": [
+          "#dae0f5"
+      ],
+      "TEXT_MUTED": [
+          "#a5b3e7"
+      ],
+      "TEXT_LINK": [
+          "#00aafc"
+      ],
+      "INTERACTIVE_NORMAL": [
+          "#b5c1ec"
+      ],
+      "INTERACTIVE_HOVER": [
+          "#dae0f5"
+      ],
+      "INTERACTIVE_ACTIVE": [
+          "#ffffff"
+      ],
+      "INTERACTIVE_MUTED": [
+          "#a5b3e7" 
+      ],
+      "BACKGROUND_PRIMARY": [
+          "#4e5d94"
+      ],
+      "BACKGROUND_SECONDARY": [
+          "#435180"
+      ],
+      "BACKGROUND_SECONDARY_ALT": [
+          "#435180"
+      ],
+      "BACKGROUND_TERTIARY": [
+          "#4e5d94"
+      ],
+      "BACKGROUND_ACCENT": [
+          "#dae0f5"
+      ],
+      "BACKGROUND_FLOATING": [
+          "#435180"
+      ],
+      "BACKGROUND_MOBILE_PRIMARY": [
+          "#435180"
+      ],
+      "BACKGROUND_MOBILE_SECONDARY": [
+          "#435180"
+      ],
+      "BACKGROUND_NESTED_FLOATING": [
+          "#435180"
+      ],
+     
+      "BACKGROUND_MESSAGE_HOVER": [
+          "#4e5d94"
+      ],
+      "BACKGROUND_MODIFIER_HOVER": [
+          "#4e5d94"
+      ],
+      "BACKGROUND_MODIFIER_ACTIVE": [
+          "#435180"
+      ],
+      "BACKGROUND_MODIFIER_SELECTED": [
+          "#dae0f5"
+      ],
+      "BACKGROUND_MODIFIER_ACCENT": [
+          "#435180"
+      ],
+      "CHANNELTEXTAREA_BACKGROUND": [
+          "#5c6fb1"
+      ],
+      "CHANNELS_DEFAULT": [
+          "#b5c1ec"
+      ],
+      "TEXT_DANGER": [
+          "#BF616A"
+      ],
+      "KEYBOARD": [
+          "#4e5d94"
+      ],
+      "CHANNEL_ICON": [
+          "#b5c1ec"
+      ],
+      "CHAT_BACKGROUND": [
+          "#4e5d94"
+      ],
+      "SPOILER_HIDDEN_BACKGROUND": [
+          "#dae0f5"
+      ],
+      "SPOILER_REVEALED_BACKGROUND": [
+          "#3b4770"
+      ]
+  },
+  "rawColors": {
+      "PRIMARY_100": "#f8f9fd",
+      "PRIMARY_200": "#e3e7f8",
+      "PRIMARY_300": "#c7d0f0",
+      "PRIMARY_360": "#a5b3e7",
+      "PRIMARY_400": "#8ea1e1",
+      "PRIMARY_500": "#7289da",
+      "PRIMARY_600": "#4e5d94",
+      "PRIMARY_630": "#435180",
+      "PRIMARY_660": "#3b4770",
+      "PRIMARY_700": "#2e3757",
+      "PRIMARY_800": "#222941",
+  
+      "BRAND_260": "#d1d9f3",
+      "BRAND_360": "#a5b3e7",
+      "BRAND_500": "#7289da",
+      "BRAND_560": "#5c6fb1",
+      "WHITE_500": "#ffffff",
+      "YELLOW_300": "#f0b232",
+      "GREEN_360": "#43b581",
+      "RED_400": "#f04747"
+  },
+    "plus": {
+        "version": 0,
+        "iconpack": "rosiecord-plumpy",
+        "icons": {
+           "StatusStreaming": "#B48EAD",
+           "StatusMobileOnline": "#43b581",
+           "StatusIdle": "#f0b232",
+           "StatusDND": "#f04747",
+           "StatusOffline": "#4C566A",
+           "StatusOnline": "#43b581"
+        }
+    },
+    "spec": 2
+}
