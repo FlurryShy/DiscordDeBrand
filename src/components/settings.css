@@ -1,0 +1,15 @@
+/* Remove profile picture decoration options for self */
+[class*="premiumFeatureBannerBackground-Epwl-X"],
+[id*="user-settings-change-avatar-change-avatar-decoration"]{
+    display:none;
+}
+
+/* Remove Nitro upsell in Profile settings */
+[class*="tryItOutSection"]{
+  display: none;
+}
+
+/* Remove Nitro-option in settings */
+div[class*="premiumTab-"]{
+    display:none;
+}

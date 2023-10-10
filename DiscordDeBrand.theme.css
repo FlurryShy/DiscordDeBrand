@@ -53,6 +53,8 @@
 /* Revert some other minor things */
 @import url('https://FlurryShy.github.io/DiscordDeBrand/src/general/other.css');
 
+/* Remove some newer settings / Nitro settings */
+@import url('https://FlurryShy.github.io/DiscordDeBrand/src/components/settings.css');
 
 /* -- Very minor things you might want to disable or might not care about -- */
 /* Might put them in a separate file */
@@ -105,11 +107,6 @@ div[aria-label="Start Video Call"]{
 /* Remove help button, language dependent */
 div[aria-label="Help"]{
     display: none; 
-}
-
-/* Remove Nitro-option in settings */
-div[class*="premiumTab-"]{
-    display:none;
 }
 
 /* Remove Activities, language dependent */
