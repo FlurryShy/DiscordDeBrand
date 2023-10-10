@@ -23,6 +23,12 @@ img[class*="avatarDecoration-"]{
     display: none;     
 }
 
+/* Remove profile picture decoration options for self */
+[class*="premiumFeatureBannerBackground-Epwl-X"],
+[id*="user-settings-change-avatar-change-avatar-decoration"]{
+    display:none;
+}
+
 /* Birthday decorations upsell... */
 .wrapper-C1y4Sz{
      display: none;        
