@@ -135,3 +135,8 @@ div[class*="accountProfileCard-"]{
 [class*="avatarUploader-"]{
     top: -15px;
 }
+
+/* Remove BS profile effects */
+[class*="profileEffects"]{
+  display: none;
+}
