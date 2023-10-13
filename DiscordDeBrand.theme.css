@@ -144,3 +144,8 @@ div[class*="newMemberBanner-"]{
 [class*="flowerStarContainer-"]{
     display:none;
 }
+
+/* Remove wave to welcome thing in chat */
+[class*="welcomeCTA"]{
+  display: none;
+}
