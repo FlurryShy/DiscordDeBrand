@@ -23,3 +23,6 @@ div[class*="premiumTab-"]{
 [class*="customizationSection"]:has([class*="premiumFeatureBorder"]){
   display:none
 }
+[class*="customizationSection"]:has([class*="buttonsContainer-1xP-jC"]){
+  display:none
+}
