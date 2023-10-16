@@ -12,6 +12,7 @@ body {
   /* Revert to old font var */
   --font-display: var(--font-primary);
   /* Found in Discord's CSS file: oldBrand vs newBrand HTML class - here we force old brand vars via copying */
+  --brand-500: #7289da
   --brand-experiment-100: #f8f9fd;
   --brand-experiment-130: #f2f4fc;
   --brand-experiment-160: #ebeefa;
