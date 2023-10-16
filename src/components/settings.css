@@ -13,3 +13,8 @@
 div[class*="premiumTab-"]{
     display:none;
 }
+
+/* Remove "themes" options in appearance */
+[class*="premiumFeatureBorder"]{
+  display: none;
+}
