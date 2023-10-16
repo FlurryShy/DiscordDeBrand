@@ -18,3 +18,8 @@ div[class*="premiumTab-"]{
 [class*="premiumFeatureBorder"]{
   display: none;
 }
+
+/* Remove profile effect setting */
+[class*="customizationSection"]:has([class*="premiumFeatureBorder"]){
+  display:none
+}
