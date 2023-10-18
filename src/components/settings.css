@@ -15,6 +15,7 @@ div[class*="premiumTab-"]{
 }
 
 /* Remove "themes" options in appearance */
+[class*="selectionGroup-1uE1O_"],
 [class*="premiumFeatureBorder"]{
   display: none;
 }
