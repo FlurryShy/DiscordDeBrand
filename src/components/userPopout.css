@@ -140,3 +140,9 @@ div[class*="accountProfileCard-"]{
 [class*="profileEffects"]{
   display: none;
 }
+
+/* Fix for bright profiles having a bright border around status */
+[class*="avatarHoverTarget-1zzfRL"] > div > svg > rect:first-of-type
+{
+  fill:black;
+}
