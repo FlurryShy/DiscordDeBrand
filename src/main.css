@@ -65,6 +65,8 @@ body {
   --green-430: #248045;
   --green-500: #1a6334;
   --brand-500: #7289da;  
+  --old-red: #f04747;
+  --old-green: #43b581;
 	
   /* Revert new green to old color */
   --info-positive-foreground: var(--old-green);
