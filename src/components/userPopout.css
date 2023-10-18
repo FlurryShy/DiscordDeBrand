@@ -142,7 +142,7 @@ div[class*="accountProfileCard-"]{
 }
 
 /* Fix for bright profiles having a bright border around status */
-[class*="avatarHoverTarget-1zzfRL"] > div > svg > rect:first-of-type
+[class*="avatarHoverTarget-1zzfRL"] > div > svg > rect:first-of-type:not(:last-child)
 {
   fill:black;
 }
