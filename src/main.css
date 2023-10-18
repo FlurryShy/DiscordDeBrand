@@ -61,10 +61,16 @@ body {
 }
 
 .theme-dark, .theme-light {
+  --green-530: #15562b;
+  --green-430: #248045;
+  --green-500: #1a6334;
+  --brand-500: #7289da;  
+	
   /* Revert new green to old color */
   --info-positive-foreground: var(--old-green);
   --status-positive-background: var(--old-green);
   --text-positive: var(--old-green);
+  --button-positive-background: var(--old-green);
 
   /* Revert new red to old color */
   --text-danger: var(--old-red);
