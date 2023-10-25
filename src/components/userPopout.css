@@ -94,7 +94,7 @@ div[class*="userProfileOuterThemed"]{
 }
 
 /* Allow for the profile picture to go beyond the popout */
-.root_ba16f0
+.root_ba16f0,
 div[class*="userProfileOuterUnthemed"],
 div[class*="userProfileOuterThemed"]{
       overflow:visible;  
