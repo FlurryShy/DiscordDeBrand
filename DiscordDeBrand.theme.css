@@ -137,7 +137,7 @@ div[class*="newMemberBanner"]{
 
 /* Remove the annoying community-badge on servers */
 [class*="flowerStarContainer"]{
-    display:none;
+    display:none !important;
 }
 
 /* Remove wave to welcome thing in chat */
