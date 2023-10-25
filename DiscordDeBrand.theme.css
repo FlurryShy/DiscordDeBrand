@@ -4,7 +4,7 @@
   * @basedon https://github.com/Goose-Nest/GT-RevertRebrand
   * @description Tries to revert Discords visual changes to pre-rebrand times.
   * @website https://github.com/FlurryShy/DiscordDeBrand
-  * @version 0.2
+  * @version 0.3
 */
 
 @import url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/source.min.css);
@@ -60,7 +60,7 @@
 /* Might put them in a separate file */
 
 /* Shame the new guy badge */
-.newMemberBadge-3PdStX{
+div[class*="newMemberBadge"]{
     display: none;
 }
 
@@ -80,7 +80,7 @@ a[href="/store"]{
 }
 
 /* Public server thing */
-.tutorialContainer-2jwoiB+div { 
+div[class*="tutorialContainer"]+div { 
 	display: none;
 }
 
@@ -131,17 +131,17 @@ div[aria-label="Help"]{
 }
 
 /* Remove "new" tag on newly created channels */
-div[class*="newChannel-"]{
+div[class*="newChannel"]{
     display: none;
 }
 
 /* Remove onboarding steps banner */
-div[class*="newMemberBanner-"]{
+div[class*="newMemberBanner"]{
     display: none;
 }
 
 /* Remove the annoying community-badge on servers */
-[class*="flowerStarContainer-"]{
+[class*="flowerStarContainer"]{
     display:none;
 }
 
