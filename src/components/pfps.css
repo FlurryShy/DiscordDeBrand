@@ -16,10 +16,10 @@
 }
 
 /* Remove profile picture decorations */
-svg[class*="avatarDecoration-"]{
+svg[class*="avatarDecoration_"]{
     display: none;     
 }
-img[class*="avatarDecoration-"]{
+img[class*="avatarDecoration_"]{
     display: none;     
 }
 
