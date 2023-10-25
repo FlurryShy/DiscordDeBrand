@@ -1,11 +1,11 @@
 /* Remove Top-Banner (Image / color( */
-.bannerSVGWrapper-2CLfzN{
+svg[class*="bannerSVGWrapper_"]{
   display: none; 
 }
 
 /* Moves the avatar to the appropriate position */
 div[class*="avatarPositionPremium"],
-div[class*="avatarPositionNormal-"]{
+div[class*="avatarPositionNormal"]{
     top:-25px !important;
 }
 
@@ -15,7 +15,7 @@ div[class*="avatarPositionNormal-"]{
 }*/
 
 /* Remove theming from profile-popout */
-div[class*="userProfileOuterThemed-"]{
+div[class*="userProfileOuterThemed"]{
     --profile-gradient-primary-color: var(--background-secondary-alt) !important;
     --profile-gradient-secondary-color: var(--background-secondary-alt) !important;
     --profile-gradient-overlay-color: transparent !important;
@@ -94,9 +94,8 @@ div[class*="userProfileOuterThemed-"]{
 }
 
 /* Allow for the profile picture to go beyond the popout */
-.root-8LYsGj,
-div[class*="userProfileOuterUnthemed-"],
-div[class*="userProfileOuterThemed-"]{
+div[class*="userProfileOuterUnthemed"],
+div[class*="userProfileOuterThemed"]{
       overflow:visible;  
 }
 
@@ -116,10 +115,10 @@ div[class*="profileBadges"]{
 }
 
 /* Fix positioning in user-profile panel in DMs */
-div[class*="avatarPositionPanel-"]{
+div[class*="avatarPositionPanel"]{
     top:10px !important;
 }
-div[class*="badgelistGroup-"]{
+div[class*="badgelistGroup"]{
     margin-top: 65px;
 }
 
@@ -127,12 +126,12 @@ div[class*="badgelistGroup-"]{
 .avatar-3mTjvZ{
     top:-10px;
 }
-div[class*="accountProfileCard-"]{
+div[class*="accountProfileCard"]{
     overflow:visible;
 }
 
 /* Fix for Profiles in settings */
-[class*="avatarUploader-"]{
+[class*="avatarUploader"]{
     top: -15px;
 }
 
