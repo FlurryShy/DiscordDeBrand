@@ -89,11 +89,6 @@ div[class*="upsell"]{
     display: none;
 }
 
-/* Beta Tag color */
-.textBadge-1fdDPJ{
-   background-color: #4e5d94 !important; 
-}
-
 /* Remove "show user profile" button in DMs, language dependent */
 /* div[aria-label*="Show User Profile"]{
     display: none; 
