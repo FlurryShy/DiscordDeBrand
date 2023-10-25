@@ -1,15 +1,6 @@
-/* Restyle the create server and discovery buttons to the old green */
-.circleIconButton-1VxDrg {
-  color: var(--old-green);
-}
-.circleIconButton-1VxDrg.selected-2r1Hvo {
-  color: white;
-  background-color: var(--old-green);
-}
-
 /* On switches to old green */
-.container-2nx-BQ[style*="opacity: 1; background-color: hsl(139"] {
-    background-color: var(--old-green) !important;
+div[class*="checked"]{
+  background-color:var(--old-green) !important;
 }
 
 /* Text input focus border color is now focus / link, change back to original brand color */
