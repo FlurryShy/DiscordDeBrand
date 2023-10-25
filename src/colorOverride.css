@@ -3,7 +3,7 @@
   --green-530: #15562b;
   --green-430: #248045;
   --green-500: #1a6334;
-  --brand-500: #7289da;  
+  --brand-500: #7289da !important;  
   --old-red: #f04747;
   --old-green: #43b581;
   /* Revert new green to old color */
@@ -17,4 +17,9 @@
   --status-danger-background: var(--old-red);
   --button-danger-background: var(--old-red);  
   --status-danger: var(--old-red);
+}
+
+/* Selected text */
+::selection {
+    background-color: #4e5d94;
 }
