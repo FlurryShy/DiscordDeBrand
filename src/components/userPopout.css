@@ -124,14 +124,23 @@ div[class*="badgelistGroup"]{
 }
 
 /* Fix for own profile-card in "my account" */
-div[class*="customizationSection"] > div[class*="userPopoutOuter"]{
-    overflow:visible;
-    top: 25px;
+div[class*="accountProfileCard"] > div[class*="userInfo"] > div[class*="avatar"]
+{
+  top: -15px;
+}
+div[class*="accountProfileCard"] 
+{
+  top: 15px;
+  overflow: visible;
 }
 
 /* Fix for Profiles in settings */
 [class*="avatarUploader"]{
     top: -15px !important;
+}
+div[class*="customizationSection"] > div[class*="userPopoutOuter"]{
+    overflow:visible;
+    top: 25px;
 }
 
 /* Remove BS profile effects */
