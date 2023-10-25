@@ -1,5 +1,5 @@
 /* On switches to old green */
-div[class*="checked"]{
+div[class*="checked"]:not(.bd-switch-checked){
   background-color:var(--old-green) !important;
 }
 
