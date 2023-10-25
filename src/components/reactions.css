@@ -64,10 +64,10 @@ div[id*="message-add-reaction-1"]{
     box-shadow: none !important;
 }
 [class*="hideEmoji_"]{
-    opacity: 1;
+    opacity: 1 !important;
 }
 [class*="effectsWrapper_"]{
-    display:none;
+    display:none !important;
 }
 [class*="burstReactionTooltipPrompt_"]
 {
