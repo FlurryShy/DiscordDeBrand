@@ -71,9 +71,9 @@ div[id*="message-add-reaction-1"]{
 }
 [class*="burstReactionTooltipPrompt_"]
 {
-    display:none;
+    display:none !important;
 }
 [class*="burstReactionTooltipSpacer_"]{
-  border-bottom: 0px;
-  background:rgb(35, 37, 41);
+  border-bottom: 0px !important;
+  background:rgb(35, 37, 41) !important;
 }
