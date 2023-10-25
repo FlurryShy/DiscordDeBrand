@@ -105,12 +105,12 @@ div[aria-label="Help"]{
 }
 
 /* Remove Activities, language dependent */
-[aria-label*="Start an Activity"]{
+button[aria-label*="Start an Activity"]{
   display:none;
 }
 
 /* Remove Soundboard, language dependent */
-[aria-label*="Open Soundboard"]{
+div:has(>button[aria-label*="Open Soundboard"]){
   display:none;
 }
 
