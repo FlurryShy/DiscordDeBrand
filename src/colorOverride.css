@@ -24,3 +24,13 @@
 ::selection {
     background-color: #4e5d94;
 }
+
+/* Online */
+[fill*="#23a55a"]{
+  fill: var(--old-green);
+}
+
+/* DND */
+[fill*="#f23f43"]{
+  fill: var(--old-red);
+}
