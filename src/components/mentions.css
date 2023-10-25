@@ -1,5 +1,6 @@
 /* Revert mentions and channel links */
-#app-mount .channelMention {
+#app-mount .channelMention, 
+#app-mount  .mention {
   color: var(--brand-experiment-460);
   background: var(--brand-experiment-10a);
 
@@ -7,7 +8,8 @@
   padding: 0 1px;
 }
 
-#app-mount .channelMention:hover {
+#app-mount .channelMention:hover,
+#app-mount .mention:hover {
   background: var(--brand-experiment);
   color: var(--brand-experiment-100);
 }
