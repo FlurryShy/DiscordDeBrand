@@ -149,3 +149,7 @@ div[class*="newMemberBanner"]{
 [class*="welcomeCTA"]{
   display: none;
 }
+
+[class*="flowerStarContainer"]{
+    display:none !important;
+}
