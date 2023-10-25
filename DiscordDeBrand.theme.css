@@ -80,7 +80,7 @@ a[href="/store"]{
 }
 
 /* Public server thing */
-div[class*="tutorialContainer"]+div { 
+.tutorialContainer_dc6fde+div { 
 	display: none;
 }
 
