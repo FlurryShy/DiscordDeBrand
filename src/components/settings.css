@@ -1,5 +1,6 @@
+
 /* Remove profile picture decoration options for self */
-[class*="premiumFeatureBannerBackground-Epwl-X"],
+[class*="premiumFeatureBannerBackground"],
 [id*="user-settings-change-avatar-change-avatar-decoration"]{
     display:none;
 }
@@ -10,14 +11,19 @@
 }
 
 /* Remove Nitro-option in settings */
-div[class*="premiumTab-"]{
+div[class*="premiumTab"]{
     display:none;
 }
 
 /* Remove "themes" options in appearance */
-[class*="selectionGroup-1uE1O_"],
+[class*="selectionGroup__36139"],
 [class*="premiumFeatureBorder"]{
   display: none;
+}
+
+/* Remove store BS in Profiles*/
+.container_d6bff4{
+  display:none !important;
 }
 
 /* Remove profile effect setting */
