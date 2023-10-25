@@ -77,3 +77,8 @@ div[id*="message-add-reaction-1"]{
   border-bottom: 0px !important;
   background:rgb(35, 37, 41) !important;
 }
+
+/* Remove super-reaction completely */
+[class*="reaction_"]:has([class*="burstGlow"]) {
+  display:none;
+}
