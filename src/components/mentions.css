@@ -1,5 +1,5 @@
 /* Revert mentions and channel links */
-#app-mount .wrapper-1ZcZW- {
+#app-mount .channelMention {
   color: var(--brand-experiment-460);
   background: var(--brand-experiment-10a);
 
@@ -7,7 +7,7 @@
   padding: 0 1px;
 }
 
-#app-mount .wrapper-1ZcZW-:hover {
+#app-mount .channelMention:hover {
   background: var(--brand-experiment);
   color: var(--brand-experiment-100);
 }
