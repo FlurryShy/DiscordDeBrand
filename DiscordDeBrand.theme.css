@@ -79,6 +79,11 @@ a[href="/store"]{
     display: none;
 }
 
+/* Remove Big Store Button */
+a[href="/shop"]{
+    display: none;
+}
+
 /* Public server thing */
 .tutorialContainer_dc6fde+div { 
 	display: none;
