@@ -123,6 +123,16 @@ div:has(>button[aria-label*="Open Soundboard"]){
   display:none;
 }
 
+/* Remove soundboard and reactions from calls */
+[class*="voiceEffectsActionBar__"]{
+    display:none;
+}
+
+/* Remove activity / invite friends BS when you are alone in a call */
+.row_d36dca:has( > div > div > div > [src*="/assets/3ccc7040cdcbc1efaf36.svg"]){
+    display:none;
+}
+
 /* Remove Birthday BS */
 [href="/activities"]{
     display:none;
