@@ -70,7 +70,7 @@ div[class*="newMemberBadge"]{
 
 /* Boost-thing in servers, probably language dependent */
 /* Added NOT to fix roles not displaying either */
-div[aria-label*="Boost"]:NOT(div[class*="role_"]){
+div[aria-label*="Boost"]:NOT(div[class*="role"]){
     display: none;
 }
 
