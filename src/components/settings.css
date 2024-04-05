@@ -15,10 +15,20 @@ div[class*="premiumTab"]{
     display:none;
 }
 
-/* Remove "themes" options in appearance */
+/* Remove "themes" options in appearance - old */
 [class*="selectionGroup__36139"],
 [class*="premiumFeatureBorder"]{
   display: none;
+}
+
+/* Remove "themes" options in appearance */
+[class*="basicThemeSelectors__"]+section
+{
+  display: none;
+}
+
+div[class*="selectionGroup_"]{
+    display:none;
 }
 
 /* Remove store BS in Profiles*/
