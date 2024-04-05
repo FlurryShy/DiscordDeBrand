@@ -33,3 +33,8 @@ div[class*="premiumTab"]{
 [class*="customizationSection"]:has([class*="buttonsContainer-1xP-jC"]){
   display:none
 }
+
+/* Valorant advert in profiles */
+.container__686c4{
+    display:none;
+}
