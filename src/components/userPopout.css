@@ -79,13 +79,6 @@ div[class*="userProfileOuterThemed"]{
     --status-positive: hsl(139,calc(var(--saturation-factor, 1)*47.3%),43.9%) !important;
 }
 
-/* circle behind user-status might otherwise be white depending on user-style */
-.wrapper-3Un6-K > svg > circle{
-    fill:black;
-}
-
-
-
 /* -- Big Poput -- */
 
 /* Moves head to right height, since we removed the top banner / image */
@@ -156,4 +149,7 @@ div[class*="customizationSection"] > div[class*="userPopoutOuter"]{
 [class*="avatarHoverTarget"] > div > svg > circle:first-of-type:not(:last-child)
 {
   fill:black;
+}
+[class*="avatar__"] > svg > circle:first-of-type:not(:last-child) {
+    fill: black;
 }
