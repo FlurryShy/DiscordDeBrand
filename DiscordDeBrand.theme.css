@@ -168,3 +168,11 @@ div[class*="newMemberBanner"]{
 [class*="flowerStarContainer"]{
     display:none !important;
 }
+
+/* Remove recently played games... who cares? */
+div:has(> div[class*="recentGames_"]):NOT(div[class*="userInfoSection_"]),
+div:has(+ div[class*="recentGames_"]),
+div[class*="recentGames_"]
+{
+  display:none;
+}
