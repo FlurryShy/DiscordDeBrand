@@ -60,6 +60,20 @@
 /* by davart154 */
 @import url('https://FlurryShy.github.io/DiscordDeBrand/src/components/icons.css');
 
+/* Vencord-specific fix for additional icons */
+div.button__493d9 > .buttonWrapper_bd4bd7 > * {
+    display: block !important;
+}
+
+div.buttonWrapper_bd4bd7 {
+    --current-color: currentColor;
+    background-color: unset;
+}
+
+.button__493d9:not(.vc-chatbar-button .button__493d9) .buttonWrapper_bd4bd7 {
+    background-color: var(--current-color);
+}
+
 /* -- Very minor things you might want to disable or might not care about -- */
 /* Might put them in a separate file */
 
