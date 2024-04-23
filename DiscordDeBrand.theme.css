@@ -61,6 +61,7 @@
 @import url('https://FlurryShy.github.io/DiscordDeBrand/src/components/icons.css');
 
 /* Vencord-specific fix for additional icons */
+/* by thisRedH */
 div.button__493d9 > .buttonWrapper_bd4bd7 > * {
     display: block !important;
 }
