@@ -83,10 +83,9 @@ div[class*="newMemberBadge"]{
     display: none;
 }
 
-/* Boost-thing in servers, probably language dependent */
-/* Added NOT to fix roles not displaying either */
-div[aria-label*="Boost"]:NOT(div[class*="role"]){
-    display: none;
+/* Boost-thing in servers */
+div[data-list-item-id*="channels___boosts-"]{
+    display:none;
 }
 
 /* Hide Nitro gift button, language dependent*/
