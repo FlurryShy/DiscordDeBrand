@@ -129,8 +129,12 @@ div[aria-label="Help"]{
 }
 
 /* Remove Activities, language dependent */
-button[aria-label*="Start an Activity"]{
-  display:none;
+div[class*="buttonContainer_"]:has( > div > svg > foreignObject > div > button[aria-label*="Start an Activity"]){
+    display:none;
+}
+/* Activities in text-channels */
+div[id*="channel-attach-activity"]{
+    display:none;
 }
 
 /* Remove Soundboard, language dependent */
@@ -144,7 +148,11 @@ div:has(>button[aria-label*="Open Soundboard"]){
 }
 
 /* Remove activity / invite friends BS when you are alone in a call */
-.row_d36dca:has( > div > div > div > [src*="/assets/3ccc7040cdcbc1efaf36.svg"]){
+/* .row_fd7b05:has( > div > div > div > [src*="/assets/88565449f84053ba8ea2.svg"]){
+    display:none;
+}*/
+/* Language-Dependant alternative via alt-text. in case they change classes again */
+div[class*="row_"]:has( > div > div > div > [alt*="characters playing a game"]){
     display:none;
 }
 
