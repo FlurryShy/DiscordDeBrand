@@ -15,6 +15,9 @@
 /* Generated hardcoded color fixes */
 @import url('https://FlurryShy.github.io/DiscordDeBrand/src/hardcoded.css');
 
+/* Color overrides */
+@import url('https://FlurryShy.github.io/DiscordDeBrand/src/colorOverride.css');
+
 
 /* Individual components: */
 
