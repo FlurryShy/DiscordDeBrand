@@ -112,6 +112,10 @@ a[href="/shop"]{
 div[class*="upsell"]{
     display: none;
 }
+/* Upsell BS in Server-Settings */
+div[class*="divider__"]:has( > div > div > button > div[class*="upsellButton__"]){
+    display:none;
+}
 
 /* Remove "show user profile" button in DMs, language dependent */
 /* div[aria-label*="Show User Profile"]{
