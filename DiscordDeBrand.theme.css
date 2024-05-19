@@ -207,11 +207,13 @@ div[class*="recentGames_"]
 }
 
 /* Change the "APP" badge to "BOT" again ... cause that is what it is */
-span[class*="botTag_a52f38"] > span[class*="botText_"]{
+span[class*="botTag_a52f38"] > span[class*="botText_"],
+span[class*="botTagCozy__85d43"] > span[class*="botText_"]{
     visibility: hidden;
 }
 
-span[class*="botTag_a52f38"] > span[class*="botText_"]::after{
+span[class*="botTag_a52f38"] > span[class*="botText_"]::after,
+span[class*="botTagCozy__85d43"] > span[class*="botText_"]::after{
     content:"BOT";
     visibility: visible;
     display:block;
