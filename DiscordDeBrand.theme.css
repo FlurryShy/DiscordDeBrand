@@ -220,3 +220,14 @@ span[class*="botTagCozy__85d43"] > span[class*="botText_"]::after{
     position: absolute;
     top:0px;
 }
+
+
+/* change X logo back to twitter */
+img[aria-label="X"]{
+    content: URL(/assets/dab3862d582558f6c4b8.svg);
+}
+
+/* remove clantag BS */
+[class*=clanTag] {
+    display: none;
+}
