@@ -3,7 +3,9 @@
   --green-530: #15562b;
   --green-430: #248045;
   --green-500: #1a6334;
-  --brand-500: var(--old-blurple) !important;  
+  --brand-500: var(--old-blurple) !important; 
+  --brand-560: #5c6fb1;
+  --brand-530: #5c6fb1;
   --old-red: #f04747;
   --old-green: #43b581;
   --old-blurple: #7289da;
