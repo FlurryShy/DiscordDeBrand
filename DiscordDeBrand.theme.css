@@ -207,13 +207,14 @@ div[class*="recentGames_"]
 }
 
 /* Change the "APP" badge to "BOT" again ... cause that is what it is */
-span[class*="botTag_a52f38"] > span[class*="botText_"],
-span[class*="botTagCozy__85d43"] > span[class*="botText_"]{
+/* Language dependant cause they re-used the "botTag" classes on forums for original posters... cause those are bots / apps apparently... */
+span[class*="botTag_a52f38"]:NOT([aria-label*="Original Poster"]) > span[class*="botText_"],
+span[class*="botTagCozy__85d43"]:NOT([aria-label*="Original Poster"]) > span[class*="botText_"]{
     visibility: hidden;
 }
 
-span[class*="botTag_a52f38"] > span[class*="botText_"]::after,
-span[class*="botTagCozy__85d43"] > span[class*="botText_"]::after{
+span[class*="botTag_a52f38"]:NOT([aria-label*="Original Poster"]) > span[class*="botText_"]::after,
+span[class*="botTagCozy__85d43"]:NOT([aria-label*="Original Poster"]) > span[class*="botText_"]::after{
     content:"BOT";
     visibility: visible;
     display:block;
