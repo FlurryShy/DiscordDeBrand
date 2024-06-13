@@ -58,7 +58,7 @@ div[id*="message-add-reaction-1"]{
     animation: none !important;
 }
 [class*="reaction_"]{
-    background: var(--background-secondary) !important;
+    background: var(--background-secondary);
 }
 [class*="burstGlow_"]{
     box-shadow: none !important;
