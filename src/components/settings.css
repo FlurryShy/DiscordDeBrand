@@ -16,7 +16,7 @@ div[class*="premiumTab"]{
 }
 
 /* Remove "themes" options in appearance - old */
-[class*="selectionGroup__36139"],
+[class*="selectionGroup_bde965"],
 [class*="premiumFeatureBorder"]{
   display: none;
 }
@@ -32,7 +32,7 @@ div[class*="selectionGroup_"]{
 }
 
 /* Remove store BS in Profiles*/
-.container_d6bff4{
+.container_da1432{
   display:none !important;
 }
 
@@ -40,11 +40,11 @@ div[class*="selectionGroup_"]{
 [class*="customizationSection"]:has([class*="premiumFeatureBorder"]){
   display:none
 }
-[class*="customizationSection"]:has([class*="buttonsContainer-1xP-jC"]){
+[class*="customizationSection"]:has([class*="buttonsContainer_be2933"]){
   display:none
 }
 
 /* Valorant advert in profiles */
-.container__686c4{
+.container_da1432{
     display:none;
 }
