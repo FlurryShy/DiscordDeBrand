@@ -15,7 +15,7 @@ div[class*="checked"]:not(.bd-switch-checked){
 }
 
 /* Revert ping mention button being link colored (used to be brand) */
-.colorLink-2apWfY.size14-3fJ-ot.mentionButton-3C5YMI {
+.colorLink-2apWfY.size14-3fJ-ot.mentionButton_b11c5e {
   color: var(--brand-experiment) !important;
 }
 
@@ -25,18 +25,18 @@ div[class*="checked"]:not(.bd-switch-checked){
 }
 
 /* Revert the 'Add Friend' button to the old green*/
-.item-3mHhwr.item-3XjbnG.themed-2-lozF[style*="background-color: hsl(139"] {
+.item_c2739c.item-3XjbnG.themed-2-lozF[style*="background-color: hsl(139"] {
     background-color: var(--old-green) !important;
 }
 
 /* Fixed "Add Friend" button to correct colors when selected */
-.item-3mHhwr.item-3XjbnG.themed-2-lozF[aria-selected*="true"][style*="color: hsl(139"] {
+.item_c2739c.item-3XjbnG.themed-2-lozF[aria-selected*="true"][style*="color: hsl(139"] {
   color: var(--old-green) !important;
   background-color: #33524c !important;
 }
 
 /* Color picker default to blurple instead of new brand color */
-.colorPickerSwatch-RTUGRR.default-3ISV7m {
+.colorPickerSwatch__343b4.default__428e2 {
   background-color: var(--brand-experiment) !important;
 }
 
@@ -44,4 +44,3 @@ div[class*="checked"]:not(.bd-switch-checked){
 .progressBar-1T6LYX {
     background-color: var(--brand-experiment) !important;
 }
-
