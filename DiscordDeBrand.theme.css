@@ -65,16 +65,16 @@
 
 /* Vencord-specific fix for additional icons */
 /* by thisRedH */
-div.button__493d9 > .buttonWrapper_bd4bd7 > * {
+div.button_d0696b > .buttonWrapper_cecf00 > * {
     display: block !important;
 }
 
-div.buttonWrapper_bd4bd7 {
+div.buttonWrapper_cecf00 {
     --current-color: currentColor;
     background-color: unset;
 }
 
-.button__493d9:not(.vc-chatbar-button .button__493d9) .buttonWrapper_bd4bd7 {
+.button_d0696b:not(.vc-chatbar-button .button_d0696b) .buttonWrapper_cecf00 {
     background-color: var(--current-color);
 }
 
@@ -107,7 +107,7 @@ a[href="/shop"]{
 }
 
 /* Public server thing */
-.tutorialContainer__6835f+div { 
+.tutorialContainer_c96c45+div { 
 	display: none;
 }
 
@@ -155,7 +155,7 @@ div:has(>button[aria-label*="Open Soundboard"]){
 }
 
 /* Remove activity / invite friends BS when you are alone in a call */
-/* .row_fd7b05:has( > div > div > div > [src*="/assets/88565449f84053ba8ea2.svg"]){
+/* .row_d8e960:has( > div > div > div > [src*="/assets/88565449f84053ba8ea2.svg"]){
     display:none;
 }*/
 /* Language-Dependant alternative via alt-text. in case they change classes again */
@@ -208,13 +208,13 @@ div[class*="recentGames_"]
 
 /* Change the "APP" badge to "BOT" again ... cause that is what it is */
 /* Language dependant cause they re-used the "botTag" classes on forums for original posters... cause those are bots / apps apparently... */
-span[class*="botTag_a52f38"]:NOT([aria-label*="Original Poster"]) > span[class*="botText_"],
-span[class*="botTagCozy__85d43"]:NOT([aria-label*="Original Poster"]) > span[class*="botText_"]{
+span[class*="botTag_a31c43"]:NOT([aria-label*="Original Poster"]) > span[class*="botText_"],
+span[class*="botTagCozy_ec86aa"]:NOT([aria-label*="Original Poster"]) > span[class*="botText_"]{
     visibility: hidden;
 }
 
-span[class*="botTag_a52f38"]:NOT([aria-label*="Original Poster"]) > span[class*="botText_"]::after,
-span[class*="botTagCozy__85d43"]:NOT([aria-label*="Original Poster"]) > span[class*="botText_"]::after{
+span[class*="botTag_a31c43"]:NOT([aria-label*="Original Poster"]) > span[class*="botText_"]::after,
+span[class*="botTagCozy_ec86aa"]:NOT([aria-label*="Original Poster"]) > span[class*="botText_"]::after{
     content:"BOT";
     visibility: visible;
     display:block;
