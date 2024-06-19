@@ -6,8 +6,8 @@
   border: none;
 }
 
-.mentioned-Tre-dv .reaction-3vwAF2,
-.mentioned-Tre-dv .reaction-3vwAF2:hover {
+.mentioned_d5deea .reaction_f61c73,
+.mentioned_d5deea .reaction_f61c73:hover {
     background-color:var(--background-modifier-accent);
 }
 
@@ -24,9 +24,9 @@
   color: var(--brand-experiment); /* A11Y-- */
 }
 
-.mentioned-Tre-dv .reaction-3vwAF2.reactionMe-1PwQAc,
-.mentioned-Tre-dv .reactionMe-1PwQAc.reaction-3vwAF2:hover,
-.reaction-3vwAF2.reactionMe-1PwQAc {
+.mentioned_d5deea .reaction_f61c73.reactionMe_f61c73,
+.mentioned_d5deea .reactionMe_f61c73.reaction_f61c73:hover,
+.reaction_f61c73.reactionMe_f61c73 {
   background-color: var(--brand-experiment-30a);
 }
 
