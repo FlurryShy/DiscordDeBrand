@@ -61,7 +61,7 @@ div[class*="invisibleContainer_d0a252"]{
 
 /* thoughtbubble background */
 span[class*="statusBubble_"]{
-    background-color: var(--profile-body-background-color);
+    background-color: var(--profile-body-background-color) !important;
     border-radius: var(--radius-xs);
 }
 
@@ -85,4 +85,19 @@ div[class*="visibleContainer_d0a252"]:NOT(div[class*="fullSize_d0a252"]){
 /* remove background color of profile */
 div[class*="biteSizeInnerThemed_"]{
     background:none;
+}
+
+/* remove profile color from roles */
+.pill_f9575e{
+    background:var(--bg-mod-faint) !important;
+    border:none;
+}
+
+/* remove profile color from activities */
+.activity_cd74cc{
+    background:var(--bg-mod-faint) !important;
+    border-radius: var(--radius-xs);    
+}
+.buttonColor_cd74cc{
+    background-color: var(--button-secondary-background);
 }
