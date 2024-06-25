@@ -98,12 +98,6 @@ div[class*="biteSizeInnerThemed_"] {
     border: 1px solid oklab(0.999994 0.0000455678 0.0000200868 / 0.03) !important;
 }
 
-/* remove profile color from roles */
-.pill_f9575e{
-    background:var(--bg-mod-faint) !important;
-    border:none;
-}
-
 /* remove profile color from activities */
 .activity_cd74cc{
     background:var(--bg-mod-faint) !important;
