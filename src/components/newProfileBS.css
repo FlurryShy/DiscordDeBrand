@@ -20,10 +20,11 @@ div[class*="visibleContainer_d0a252"]{
     position:inherit;
 }
 
-/* disable hover-size-change bs for note */
+/* disable hover-size-change bs and center-text single lign for note */
 div[class*="content_d0a252"]{
     max-height: none !important;
     -webkit-line-clamp: 99;
+    text-align: left;
 }
 
 /* remove thougtbubble styling */
