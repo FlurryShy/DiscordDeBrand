@@ -15,7 +15,6 @@ div[class*="userPopoutInner_"] > header{
 }
 /* move the note below pfp pic */
 div[class*="visibleContainer_d0a252"]{
-    
     margin-top: 3px;;
     position:inherit;
 }
@@ -73,8 +72,14 @@ div[class*="fullSizeOuter_"]{
 
 /* border + corners detail area */
 div[class*="fullSizeOverlayBackground_"]{
+	background: oklab(0.431938 0.00109309 -0.0132537 / 0.3) !important;
     border:none;
     border-radius: var(--radius-xs);
+}
+
+/* remove bs border from themed profiles */
+div[class*="userProfileOuterThemed_"]{
+    padding: 0px !important;
 }
 
 /* margins for small profile */
