@@ -112,3 +112,20 @@ div[class*="biteSizeInnerThemed_"] {
 .buttonColor_cd74cc{
     background-color: var(--button-secondary-background);
 }
+
+
+
+
+/* Modview color bs... */
+.topRow_d936aa,
+.bottomRowAction_d936aa,
+.header_f51af4,
+.container_f51af4 {
+    background-color: rgba(43, 45, 49, 0.8) !important;
+}
+
+.theme-light.custom-theme-background{
+    --theme-base-color: var(--theme-base-color-dark);
+    --theme-text-color: var(--theme-text-color-dark);
+    --theme-base-color-hsl: var(--theme-base-color-dark-hsl);
+}
