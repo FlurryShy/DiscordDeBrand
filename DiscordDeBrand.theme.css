@@ -59,6 +59,9 @@
 /* Remove some newer settings / Nitro settings */
 @import url('https://FlurryShy.github.io/DiscordDeBrand/src/components/settings.css');
 
+/* New minified profile BS */
+@import url('https://FlurryShy.github.io/DiscordDeBrand/src/components/newProfileBS.css')
+
 /* Revert their shitty end of 2023 icon redesigns */
 /* by davart154 */
 @import url('https://FlurryShy.github.io/DiscordDeBrand/src/components/icons.css');
