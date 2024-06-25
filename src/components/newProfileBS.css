@@ -1,0 +1,88 @@
+/* new profile bs */
+/* allow for overflow of the pfp pic after removing banner*/
+div[class*="root_bc9cc2"]{
+    overflow:visible;
+}
+
+/* move pfp  */
+header > div[class*="clickable_"]{
+    top:-30px;
+}
+
+/* force collapsing of the header */
+div[class*="userPopoutInner_"] > header{
+    min-height: 0px !important;
+}
+/* move the note below pfp pic */
+div[class*="visibleContainer_d0a252"]{
+    
+    margin-top: 3px;;
+    position:inherit;
+}
+
+/* disable hover-size-change bs for note */
+div[class*="content_d0a252"]{
+    max-height: none !important;
+    -webkit-line-clamp: 99;
+}
+
+/* remove thougtbubble styling */
+div[class*="statusBubbleOuter_"]{
+    border:none !important;
+    background: none;
+    background-color: transparent;
+    box-shadow: none;
+    max-width: none;
+}
+
+/* remove thoughtbubble bs */
+div[class*="statusBubbleOuter_"]::before,
+div[class*="statusBubbleOuter_"]::after{
+    display:none;
+}
+
+/* move modview / addfriend / more buttons to where they should be */
+.wrapper_cb78f1{
+    min-height: 30px;
+    position: unset;
+    margin-left:auto;
+    margin-right: 12px;
+    margin-top: 12px;
+}
+.wrapper_cb78f1:empty{
+    display: inherit;
+}
+
+/* remove the small bubble bs */
+div[class*="invisibleContainer_d0a252"]{
+    position:inherit;
+    height:0px;
+}
+
+/* thoughtbubble background */
+span[class*="statusBubble_"]{
+    background-color: var(--profile-body-background-color);
+    border-radius: var(--radius-xs);
+}
+
+/* set max-height for large profile, needed cause of overflow */
+div[class*="fullSizeOuter_"]{
+    max-height: 100%;
+}
+
+/* border + corners detail area */
+div[class*="fullSizeOverlayBackground_"]{
+    border:none;
+    border-radius: var(--radius-xs);
+}
+
+/* margins for small profile */
+div[class*="visibleContainer_d0a252"]:NOT(div[class*="fullSize_d0a252"]){
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* remove background color of profile */
+div[class*="biteSizeInnerThemed_"]{
+    background:none;
+}
