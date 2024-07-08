@@ -40,8 +40,11 @@ div[class*="selectionGroup_"]{
 [class*="customizationSection"]:has([class*="premiumFeatureBorder"]){
   display:none
 }
-[class*="customizationSection"]:has([class*="buttonsContainer_be2933"]){
-  display:none
+
+/* remove avatar decoration / profile effect options */
+.sectionsContainer_b45d91 > .customizationSection_b3a5c2:nth-child(4),
+.sectionsContainer_b45d91 > .customizationSection_b3a5c2:nth-child(5){
+    display:none;
 }
 
 /* Valorant advert in profiles */
