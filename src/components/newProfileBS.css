@@ -117,7 +117,10 @@ div[class*="fullSizeInnerThemed_"]
     background-color: var(--button-secondary-background);
 }
 
-
+/* fix preview of own server profile */
+div[class*="customizationSection_"][class*="preview_"] > div[class*="biteSizeOuter_"] > div > header > div > div[class*="visibleContainer_"]{
+    margin-top:30px;
+}
 
 
 /* Modview color bs... */
