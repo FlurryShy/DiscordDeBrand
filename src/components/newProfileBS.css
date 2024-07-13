@@ -6,7 +6,7 @@ div[class*="root_bc9cc2"]{
 
 /* move pfp  */
 header > div[class*="clickable_"]{
-    top:-30px;
+    top:-30px !important;
 }
 
 /* force collapsing of the header */
@@ -95,6 +95,7 @@ div[class*="biteSizeInnerThemed_"] {
 }
 div[class*="fullSizeInnerThemed_"]
 {
+	overflow:visible;
     background:none;
 }
 
