@@ -1,4 +1,5 @@
 :root body{
+  --bg-brand: var(--old-blurple);
   --green-360: var(--old-green);
   --green-530: #15562b;
   --green-430: #248045;
