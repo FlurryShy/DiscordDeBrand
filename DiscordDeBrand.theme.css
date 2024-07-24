@@ -94,6 +94,12 @@ div[data-list-item-id*="channels___boosts-"]{
     display:none;
 }
 
+/* remove server subscription bs */
+div[class*="containerDefault"]:has(div[data-list-item-id*="channels___subscriptions"])
+{
+    display:none;
+}
+
 /* Hide Nitro gift button, language dependent*/
 button[aria-label="Send a gift"] {
     display: none;
