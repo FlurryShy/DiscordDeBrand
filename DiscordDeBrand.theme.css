@@ -94,11 +94,16 @@ div[data-list-item-id*="channels___boosts-"]{
     display:none;
 }
 
-/* remove server subscription bs */
+/* remove server subscription and shop bs */
 div[class*="containerDefault"]:has(div[data-list-item-id*="channels___subscriptions"])
 {
     display:none;
 }
+div[class*="containerDefault_"]:has(div[data-list-item-id*="channels___shop"])
+{
+    display:none;
+}
+
 
 /* Hide Nitro gift button, language dependent*/
 button[aria-label="Send a gift"] {
