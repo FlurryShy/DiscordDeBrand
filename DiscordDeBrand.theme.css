@@ -112,7 +112,9 @@ img[class*="activityEmoji_"]:NOT(.emoji)
 {
     display:none;
 }
-div[class*="popout_"]:has( > div[class*="options_"] > div[class*="iconsContainer_"])
+/* hangout bs popup for self, for others when not streaming */
+div[class*="popout_"]:has( > div[class*="options_"] > div[class*="iconsContainer_"]),
+div[class*="popout_"]:has( > div[class*="contentContainer_"] > div[class*="statusGroup_"])
 {
     display:none;
 }
