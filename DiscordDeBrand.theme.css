@@ -104,6 +104,18 @@ div[class*="containerDefault_"]:has(div[data-list-item-id*="channels___shop"])
     display:none;
 }
 
+/* Remove hangout icon bs */
+/* disable default hang status via vencord / vesktop! */
+/* left the "add status+ to confirm for now */
+img[class*="hangStatusIcon_"],
+img[class*="activityEmoji_"]:NOT(.emoji)
+{
+    display:none;
+}
+div[class*="popout_"]:has( > div[class*="options_"] > div[class*="iconsContainer_"])
+{
+    display:none;
+}
 
 /* Hide Nitro gift button, language dependent*/
 button[aria-label="Send a gift"] {
