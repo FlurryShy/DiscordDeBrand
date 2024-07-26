@@ -83,6 +83,12 @@ div[class*="userProfileOuterThemed_"]{
     padding: 0px !important;
 }
 
+/* remove white profile color around status */
+header > div > div > svg > circle[fill="white"],
+div[class*="fullSize_"] > div > svg > circle[fill="white"]{
+    fill: none;
+}
+
 /* margins for small profile */
 div[class*="visibleContainer_d0a252"]:NOT(div[class*="fullSize_d0a252"]){
     margin-right: 10px;
