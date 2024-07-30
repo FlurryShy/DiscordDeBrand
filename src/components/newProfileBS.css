@@ -26,6 +26,11 @@ div[class*="descriptionClamp_"]{
     -webkit-line-clamp: 99;
     text-align: left;
 }
+/* remove view full bio */
+button[class*="viewFullBio_"]
+{
+	display:none;
+}
 
 /* remove thougtbubble styling */
 div[class*="statusBubbleOuter_"]{
