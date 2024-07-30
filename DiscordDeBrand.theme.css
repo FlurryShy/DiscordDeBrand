@@ -119,6 +119,11 @@ div[class*="popout_"]:has( > div[class*="contentContainer_"] > div[class*="statu
     display:none;
 }
 
+/* Remove "x in voice" in channel list  */
+div[class*="container_"]:has( > div[class*="containerPadding_"] > div[class*="bar_"] > svg[class*="voiceChannelsIcon_"]){
+    display:none;
+}
+
 /* Hide Nitro gift button, language dependent*/
 button[aria-label="Send a gift"] {
     display: none;
