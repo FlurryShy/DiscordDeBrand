@@ -258,6 +258,10 @@ span[class*="botTagRegular_a02df3"]:NOT([aria-label*="Original Poster"]) > span[
     left:0px;
 }
 
+/* change bright blue to blurple on some embeds */
+article[style*="border-color: hsla(236, calc(var(--saturation-factor, 1) * 100%), 50%, 1);"]{
+    border-color: var(--old-blurple) !important;
+}
 
 /* change X logo back to twitter */
 img[aria-label="X"]{
