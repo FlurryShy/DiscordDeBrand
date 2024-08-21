@@ -272,3 +272,8 @@ img[aria-label="X"]{
 [class*=clanTag] {
     display: none;
 }
+
+/* remove app launcher */
+[class^=channelAppLauncher_] {
+  display:none
+}
