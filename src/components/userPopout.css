@@ -1,7 +1,8 @@
-/* Remove Top-Banner (Image / color( */
+/* Remove Top-Banner (Image / color)
+Has been changed, now in newProfileBS
 svg[class*="bannerSVGWrapper_"]{
   display: none; 
-}
+}*/
 
 /* Moves the avatar to the appropriate position */
 div[class*="avatarPositionPremium"],
