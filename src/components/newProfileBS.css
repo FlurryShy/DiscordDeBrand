@@ -1,4 +1,9 @@
 /* new profile bs */
+/* Remove Top-Banner (Image / color( */
+header > svg[class*="mask"]{
+    display:none;
+}
+
 /* allow for overflow of the pfp pic after removing banner*/
 div[class*="root_bc9cc2"]{
     overflow:visible;
