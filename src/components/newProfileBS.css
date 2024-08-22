@@ -3,6 +3,27 @@
 header > svg[class*="mask"]{
     display:none;
 }
+/* change min-size of popout after removing the banner */
+div[class*="biteSizeInner"] > header{
+    min-height:0px !important;
+}
+
+/* change the margin on your own status on the lower menu bar */
+div[class*="biteSizeInner"]:not(:has(> div[class*="wrapper"])) > header > div >
+div[class*="visibleContainer_"]:has(> div[class*="popover_"]) > 
+div[class*="statusBubbleOuter"]{
+    margin-top: 51px;
+}
+/* fix for the above when you have no status set */
+div[class*="statusBubbleOuter"]:has( > span > div > svg[class*="addStatusIcon"]){
+    margin-top: 30px;
+}
+
+/* changer position of edit / delete of your own status */
+header > div > div > div[class*="popover_"]{
+    top:40px;
+}
+
 
 /* allow for overflow of the pfp pic after removing banner*/
 div[class*="root_bc9cc2"]{
