@@ -3,6 +3,11 @@
 header > svg[class*="mask"]{
     display:none;
 }
+/* Remove top-banner in own profile */
+div[class*="accountProfileCard_"] > svg[class*="mask_"]{
+    display:none;
+}
+
 /* change min-size of popout after removing the banner */
 div[class*="biteSizeInner"] > header{
     min-height:0px !important;
