@@ -26,7 +26,7 @@ div[class*="statusBubbleOuter"]:has( > span > div > svg[class*="addStatusIcon"])
 
 /* changer position of edit / delete of your own status */
 header > div > div > div[class*="popover_"]{
-    top:40px;
+    top:40px !important;
 }
 
 
@@ -39,6 +39,15 @@ div[class*="root_bc9cc2"]{
 header > div[class*="clickable_"]{
     top:-90px !important;
 }
+/* move on your own profile on the lower menu bar  */
+div[class*="biteSizeInner"]:not(:has(> div[class*="wrapper"])) > header > div[class*="clickable_"]{
+    top:-35px !important;
+}
+/* move pfp in profiles settings */
+header > div[class*="clickable_"]:has(> svg[class*="overlayIco"]){
+    top:-15px !important;
+}
+
 
 /* force collapsing of the header */
 div[class*="userPopoutInner_"] > header{
