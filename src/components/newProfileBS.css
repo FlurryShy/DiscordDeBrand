@@ -37,7 +37,7 @@ div[class*="root_bc9cc2"]{
 
 /* move pfp  */
 header > div[class*="clickable_"]{
-    top:-30px !important;
+    top:-90px !important;
 }
 
 /* force collapsing of the header */
@@ -134,6 +134,7 @@ div[class*="visibleContainer_d0a252"]:NOT(div[class*="fullSize_d0a252"]){
 /* normalize background colors */
 div[class*="biteSizeInnerThemed_"] {
     background: oklab(0.260828 0.000630535 -0.0075893) !important;
+	overflow:visible;
 }
 div[class*="fullSizeInnerThemed_"]
 {
