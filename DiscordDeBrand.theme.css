@@ -277,3 +277,11 @@ img[aria-label="X"]{
 [class^=channelAppLauncher_] {
   display:none
 }
+
+/* remove activity BS in members-list */
+div[aria-label*="Members"] > div > div[role="listitem"]{
+    display:none;
+}
+div[aria-label*="Members"] > h3:has(> span > div > div[role="button"]){
+    display:none;
+}
