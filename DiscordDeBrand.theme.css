@@ -285,3 +285,8 @@ div[aria-label*="Members"] > div > div[role="listitem"]{
 div[aria-label*="Members"] > h3:has(> span > div > div[role="button"]){
     display:none;
 }
+
+/* remove app bs from images, probably language dependant? */
+div[aria-label="Edit Image with Apps"]{
+    display:none;
+}
