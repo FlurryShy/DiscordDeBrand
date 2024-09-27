@@ -290,3 +290,8 @@ div[aria-label*="Members"] > h3:has(> span > div > div[role="button"]){
 div[aria-label="Edit Image with Apps"]{
     display:none;
 }
+
+/* remove the three emoji when hovering over a message */
+div[aria-label*="Message Actions"] > div > div:has( > div > div[class*="emoji"]){
+    display:none;
+}
