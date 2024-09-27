@@ -17,16 +17,25 @@ div[class*="biteSizeInner"] > header{
 div[class*="biteSizeInner"]:not(:has(> div[class*="wrapper"])) > header > div >
 div[class*="visibleContainer_"]:has(> div[class*="popover_"]) > 
 div[class*="statusBubbleOuter"]{
-    margin-top: 51px;
+    margin-top: 0px;
 }
 /* fix for the above when you have no status set */
-div[class*="statusBubbleOuter"]:has( > span > div > svg[class*="addStatusIcon"]){
-    margin-top: 30px;
+div[class*="visibleContainer_d0a252"]:NOT(div[class*="fullSize_"]) > div[class*="statusBubbleOuter"]:has( > span > div > svg[class*="addStatusIcon"]){
+    margin-top: 50px !important;
+}
+div[class*="visibleContainer_d0a252"]:has(div[class*="fullSize_"]) > div[class*="statusBubbleOuter"]:has( > span > div > svg[class*="addStatusIcon"]){
+    margin-top: 40px !important;
 }
 
 /* changer position of edit / delete of your own status */
-header > div > div > div[class*="popover_"]{
+header > div > div > div[class*="popover_"],
+div[class*="headerInner_"] > div > div[class*="visibleContainer_"] > div[class*="popover_"]{
     top:40px !important;
+}
+
+/* pull profile-details up a bit  */
+div[class*="fullSizeInnerThemed_"]:has(> header > div > div > div > div[class*="statusBubbleOuter_"]) > div[class*="body"]{
+    margin-top: -30px;
 }
 
 
@@ -55,7 +64,7 @@ div[class*="userPopoutInner_"] > header{
 }
 /* move the note below pfp pic */
 div[class*="visibleContainer_d0a252"]{
-    margin-top: 3px;;
+    margin-top: 25px;;
     position:inherit;
 }
 
