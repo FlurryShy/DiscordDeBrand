@@ -295,3 +295,9 @@ div[aria-label="Edit Image with Apps"]{
 div[aria-label*="Message Actions"] > div > div:has( > div > div[class*="emoji"]){
     display:none;
 }
+
+/* remove bs discover */
+div[class*="footer_"]:has(> div > div[class*="listItemWrapper_"])
+{
+    display:none;
+}
