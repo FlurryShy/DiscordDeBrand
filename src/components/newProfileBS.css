@@ -63,9 +63,21 @@ div[class*="userPopoutInner_"] > header{
     min-height: 0px !important;
 }
 /* move the note below pfp pic */
-div[class*="visibleContainer_d0a252"]{
-    margin-top: 25px;;
+/* margin for large profile */
+div[class*="headerInner_"] > div > div[class*="visibleContainer_"]{
+    margin-top:25px;
+    position:inherit;	 
+}
+/* margin for small profile */
+header > div > div[class*="visibleContainer_"]{
+    margin-top: 0px;
     position:inherit;
+}
+/* margin for own profile in the lower left */
+div[class*="biteSizeInner_"]:HAS(> div[class*="body_"] > div > div > div > button)
+ >  header > div > div[class*="visibleContainer_"]{
+	margin-top:25px;
+	position:inherit;
 }
 
 /* disable hover-size-change bs and center-text single lign for status, 3 line bs for bio */
