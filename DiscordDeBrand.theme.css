@@ -172,9 +172,19 @@ div:has(>button[aria-label*="Open Soundboard"]){
   display:none;
 }
 
-/* Remove soundboard and reactions from calls */
-[class*="voiceEffectsActionBar__"]{
+/* remove voice effects and emoji other bs from vc */
+div[class*="flex_"]:has(> div[class*="voiceEffectsActionBar_"]){
     display:none;
+}
+/* do not display when others send emoji bs in vc */
+div[class*="chat_"] > div[class*="layerContainer_"] > div[class*="container"] > div[class*="emoji_"] > img{
+    display:none;
+}
+
+
+/* Remove activity bs, language dependant */
+div[class*="buttonContainer_"]:has(div[aria-label*="Play Activities here"]){
+	display:none;
 }
 
 /* Remove activity / invite friends BS when you are alone in a call */
