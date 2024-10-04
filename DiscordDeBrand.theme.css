@@ -298,3 +298,7 @@ div[aria-label*="Message Actions"] > div > div[class*="separator_"]{
     display:none;
 }
 
+/* remove the forward button */
+div[aria-label^="Forward"]{
+    display:none;
+}
