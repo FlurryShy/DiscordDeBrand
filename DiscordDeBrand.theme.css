@@ -133,6 +133,12 @@ div[class*="footer_"]:has(> div > div[class*="listItemWrapper_"])
 {
     display:none;
 }
+/* move unread message indicator down again */
+div[class*="unreadMentionsFixedFooter_"]
+{
+    bottom: 0px;
+}
+
 
 /* Remove all kinds of Nitro-Upsell BS */
 div[class*="upsell"]{
