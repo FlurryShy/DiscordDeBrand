@@ -304,7 +304,12 @@ div[aria-label*="Message Actions"] > div > div[class*="separator_"]{
     display:none;
 }
 
-/* remove the forward button */
+/* remove the forward button from message-menu */
 div[aria-label^="Forward"]{
+    display:none;
+}
+
+/* remove the forward button from images */
+div[class^="optionsContainer_"] > div[class*="container_"][class*="forward_"]{
     display:none;
 }
