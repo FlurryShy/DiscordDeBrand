@@ -22,7 +22,7 @@ div[class*="premiumTab"]{
 }
 
 /* Remove "themes" options in appearance */
-[class*="basicThemeSelectors__"]+section
+[class*="basicThemeSelectors_"]+section
 {
   display: none;
 }
