@@ -66,20 +66,7 @@
 /* New minified profile BS */
 @import url('https://FlurryShy.github.io/DiscordDeBrand/src/components/newProfileBS.css');
 
-/* Vencord-specific fix for additional icons */
-/* by thisRedH */
-div.button_d0696b > .buttonWrapper_cecf00 > * {
-    display: block !important;
-}
 
-div.buttonWrapper_cecf00 {
-    --current-color: currentColor;
-    background-color: unset;
-}
-
-.button_d0696b:not(.vc-chatbar-button .button_d0696b) .buttonWrapper_cecf00 {
-    background-color: var(--current-color);
-}
 
 /* -- Very minor things you might want to disable or might not care about -- */
 /* Might put them in a separate file */
