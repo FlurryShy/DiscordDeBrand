@@ -258,7 +258,7 @@ article[style*="border-color: hsla(236, calc(var(--saturation-factor, 1) * 100%)
 
 /* change X logo back to twitter */
 img[aria-label="X"]{
-    content: URL(/assets/dab3862d582558f6c4b8.svg);
+    content: URL(/assets/4cff8a97465555223d09.svg);
 }
 
 /* remove clantag BS */
