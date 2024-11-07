@@ -174,10 +174,10 @@ div[class*="biteSize_"] {
     background: oklab(0.260828 0.000630535 -0.0075893) !important;
 	overflow:visible;
 }
-div[class*="fullSize_"]
+div[class*="fullSize_"]:NOT([class*="overlay_"])
 {
 	overflow:visible;
-    background:none;
+    background:none !important;
 }
 
 /* normalize role colors */
