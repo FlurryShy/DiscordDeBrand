@@ -166,7 +166,7 @@ div[class*="visibleContainer_d0a252"]:NOT(div[class*="fullSize_d0a252"]){
 }
 
 /* normalize background colors */
-div[class*="biteSizeInnerThemed_"] {
+div[class*="biteSize_"] {
     background: oklab(0.260828 0.000630535 -0.0075893) !important;
 	overflow:visible;
 }
