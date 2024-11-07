@@ -16,7 +16,8 @@ div[class*="avatarPositionNormal"]{
 }*/
 
 /* Remove theming from profile-popout */
-div[class*="userProfileOuterThemed"]{
+div[class*="userProfileOuterThemed"],
+div[class*="custom-profile-theme"]{
     --profile-gradient-primary-color: var(--background-secondary-alt) !important;
     --profile-gradient-secondary-color: var(--background-secondary-alt) !important;
     --profile-gradient-overlay-color: transparent !important;
@@ -90,7 +91,8 @@ div[class*="userProfileOuterThemed"]{
 /* Allow for the profile picture to go beyond the popout */
 div[class*="root_b9fccc"],
 div[class*="userProfileOuterUnthemed"],
-div[class*="userProfileOuterThemed"]{
+div[class*="userProfileOuterThemed"],
+div[class*="custom-profile-theme"]{
       overflow:visible;  
 }
 
