@@ -10,7 +10,7 @@ div[class*="accountProfileCard_"] > svg[class*="mask_"]{
 
 /* change min-size of popout after removing the banner */
 div[class*="biteSize_"] > header{
-    min-height:0px !important;
+    min-height:30px !important;
 }
 
 /* change the margin on your own status on the lower menu bar */
@@ -50,7 +50,7 @@ div[class*="root_b9fccc"]{
 
 /* move pfp  */
 div[class*="biteSize_"] > header > div[class*="clickable_"]{
-    top:-90px !important;
+    top:-50px !important;
 }
 /* move on your own profile on the lower menu bar  */
 div[class*="biteSize_"]:not(:has(> div[class*="wrapper"])) > header > div[class*="clickable_"]{
