@@ -206,8 +206,11 @@ footer > div[class*="channelTextArea_"] > div[class*="inner_"]
 }
 
 /* fix preview of own server profile */
-div[class*="customizationSection_"][class*="preview_"] > div[class*="biteSizeOuter_"] > div > header > div > div[class*="visibleContainer_"]{
+div[class*="customizationSection_"][class*="preview_"] > div[class*="biteSize_"] > div > header > div > div[class*="visibleContainer_"]{
     margin-top:30px;
+}
+div[class*="customizationSection_"][class*="preview_"] > div[class*="biteSize_"]:has( > div > header > div > div[class*="visibleContainer_"]){
+    margin-top:60px;
 }
 
 
