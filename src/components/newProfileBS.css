@@ -49,7 +49,7 @@ div[class*="root_b9fccc"]{
 }
 
 /* move pfp  */
-header > div[class*="clickable_"]{
+div[class*="biteSize_"] > header > div[class*="clickable_"]{
     top:-90px !important;
 }
 /* move on your own profile on the lower menu bar  */
@@ -117,7 +117,7 @@ div[class*="statusBubbleOuter_"]::after{
 }
 
 /* move modview / addfriend / more buttons to where they should be */
-.wrapper_cb78f1{
+div[class*="fullSize"] > .wrapper_cb78f1{
     min-height: 30px;
     position: unset;
     margin-left:auto;
@@ -126,6 +126,15 @@ div[class*="statusBubbleOuter_"]::after{
 }
 .wrapper_cb78f1:empty{
     display: inherit;
+}
+
+/* fixing the profile sidebar */
+div[class*="none_"] > header > div[class*="clickable_"]{
+    top:10px !important;
+}
+div[class*="none_"] > header > div > div[class^="visibleContainer_"]{
+    margin-top: 100px;
+    position:inherit;
 }
 
 /* remove the small bubble bs */
