@@ -34,7 +34,7 @@ div[class*="headerInner_"] > div > div[class*="visibleContainer_"] > div[class*=
 }
 
 /* pull profile-details up a bit  */
-div[class*="fullSizeInnerThemed_"]:has(> header > div > div > div > div[class*="statusBubbleOuter_"]) > div[class*="body"]{
+div[class*="fullSize_"]:has(> header > div > div > div > div[class*="statusBubbleOuter_"]) > div[class*="body"]{
     margin-top: -30px;
 }
 /* fix message button in large profile not being clickable when status is set cause of the pulled up profile-details */
@@ -61,6 +61,10 @@ header > div[class*="clickable_"]:has(> svg[class*="overlayIco"]){
     top:-15px !important;
 }
 
+/* max-height for popouts, scroll if too large */
+div[class*="biteSize"][class*="inner_"] > div[class*="body_"]{
+    max-height: 60vh;
+}
 
 /* force collapsing of the header */
 div[class*="userPopoutInner_"] > header{
@@ -137,12 +141,12 @@ span[class*="statusBubble_"]{
 }
 
 /* set max-height for large profile, needed cause of overflow */
-div[class*="fullSizeOuter_"]{
+div[class*="fullSize_"]{
     max-height: 100%;
 }
 
 /* border + corners detail area */
-div[class*="fullSizeOverlayBackground_"]{
+div[class*="fullSize_"][class*="overlay_"]{
 	background: oklab(0.431938 0.00109309 -0.0132537 / 0.3) !important;
     border:none;
     border-radius: var(--radius-xs);
@@ -170,7 +174,7 @@ div[class*="biteSize_"] {
     background: oklab(0.260828 0.000630535 -0.0075893) !important;
 	overflow:visible;
 }
-div[class*="fullSizeInnerThemed_"]
+div[class*="fullSize_"]
 {
 	overflow:visible;
     background:none;
