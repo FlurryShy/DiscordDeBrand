@@ -78,7 +78,7 @@ div[class*="headerInner_"] > div > div[class*="visibleContainer_"]{
 }
 /* margin for small profile */
 header > div > div[class*="visibleContainer_"]{
-    margin-top: 0px;
+    margin-top: 25px;
     position:inherit;
 }
 /* margin for own profile in the lower left */
@@ -131,6 +131,9 @@ div[class*="fullSize"] > .wrapper_cb78f1{
 /* fixing the profile sidebar */
 div[class*="none_"] > header > div[class*="clickable_"]{
     top:10px !important;
+}
+div[class*="none_"] > header {
+    min-height:90px !important;
 }
 div[class*="none_"] > header > div > div[class^="visibleContainer_"]{
     margin-top: 100px;
