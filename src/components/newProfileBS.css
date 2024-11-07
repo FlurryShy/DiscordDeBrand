@@ -180,6 +180,12 @@ div[class*="fullSize_"]:NOT([class*="overlay_"])
     background:none !important;
 }
 
+/* message-box on popout */
+footer > div[class*="channelTextArea_"] > div[class*="inner_"]
+{
+    background: rgba(255, 255, 255, 0.1)
+}
+
 /* normalize role colors */
 .container_b64375,
 .pill_e6f2d0,
