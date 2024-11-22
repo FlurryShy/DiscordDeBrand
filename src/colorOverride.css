@@ -21,6 +21,7 @@
   --status-danger-background: var(--old-red);
   --button-danger-background: var(--old-red);  
   --status-danger: var(--old-red);
+  --button-filled-brand-background: var(--old-blurple);
 }
 
 /* Selected text */
