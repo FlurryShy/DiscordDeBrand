@@ -22,6 +22,7 @@
   --button-danger-background: var(--old-red);  
   --status-danger: var(--old-red);
   --button-filled-brand-background: var(--old-blurple);
+  --button-filled-brand-background-hover: var(--brand-560);
 }
 
 /* Selected text */
