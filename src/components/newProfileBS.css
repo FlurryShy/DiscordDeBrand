@@ -20,10 +20,10 @@ div[class*="statusBubbleOuter"]{
     margin-top: 0px;
 }
 /* fix for the above when you have no status set */
-div[class*="visibleContainer_d0a252"]:NOT(div[class*="fullSize_"]) > div[class*="statusBubbleOuter"]:has( > span > div > svg[class*="addStatusIcon"]){
+div[class*="visibleContainer_af9888"]:NOT(div[class*="fullSize_"]) > div[class*="statusBubbleOuter"]:has( > span > div > svg[class*="addStatusIcon"]){
     margin-top: 50px !important;
 }
-div[class*="visibleContainer_d0a252"]:has(div[class*="fullSize_"]) > div[class*="statusBubbleOuter"]:has( > span > div > svg[class*="addStatusIcon"]){
+div[class*="visibleContainer_af9888"]:has(div[class*="fullSize_"]) > div[class*="statusBubbleOuter"]:has( > span > div > svg[class*="addStatusIcon"]){
     margin-top: 40px !important;
 }
 
@@ -89,7 +89,7 @@ div[class*="biteSize_"]:HAS(> div[class*="body_"] > div > div > div > button)
 }
 
 /* disable hover-size-change bs and center-text single lign for status, 3 line bs for bio */
-div[class*="content_d0a252"],
+div[class*="content_af9888"],
 div[class*="descriptionClamp_"]{
     max-height: none !important;
     -webkit-line-clamp: 99;
@@ -141,7 +141,7 @@ div[class*="none_"] > header > div > div[class^="visibleContainer_"]{
 }
 
 /* remove the small bubble bs */
-div[class*="invisibleContainer_d0a252"]{
+div[class*="invisibleContainer_af9888"]{
     position:inherit;
     height:0px;
 }
@@ -176,7 +176,7 @@ div[class*="fullSize_"] > div > svg > circle[fill="white"]{
 }
 
 /* margins for small profile */
-div[class*="visibleContainer_d0a252"]:NOT(div[class*="fullSize_d0a252"]){
+div[class*="visibleContainer_af9888"]:NOT(div[class*="fullSize_af9888"]){
     margin-right: 10px;
     margin-left: 10px;
 }
