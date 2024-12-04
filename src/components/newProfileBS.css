@@ -28,9 +28,12 @@ div[class*="visibleContainer_af9888"]:has(div[class*="fullSize_"]) > div[class*=
 }
 
 /* changer position of edit / delete of your own status */
-header > div > div > div[class*="popover_"],
-div[class*="headerInner_"] > div > div[class*="visibleContainer_"] > div[class*="popover_"]{
+header > div > div > div[class*="popover_"]{
     top:40px !important;
+}
+div[class*="headerInner_"] > div > div[class*="visibleContainer_"] > div[class*="popover_"] {
+    top: -45px !important;
+    margin-right: 120px;
 }
 
 /* pull profile-details up a bit  */
@@ -72,9 +75,17 @@ div[class*="userPopoutInner_"] > header{
 }
 /* move the note below pfp pic */
 /* margin for large profile */
-div[class*="headerInner_"] > div > div[class*="visibleContainer_"]{
-    margin-top:25px;
-    position:inherit;	 
+div[class*="headerInner_"] > div > div[class*="visibleContainer_"] {
+    margin-top: -15px;
+    margin-left: 160px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    width: 300px;
+    position: inherit;
+}
+
+div[class*="headerInner_"]:has(> div > div[class*="visibleContainer_"]){
+    min-height: 90px;
 }
 /* margin for small profile */
 header > div > div[class*="visibleContainer_"]{
