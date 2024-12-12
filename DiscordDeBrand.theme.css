@@ -305,3 +305,8 @@ div[class^="optionsContainer_"] > div[class*="container_"][class*="forward_"]{
 div[class*="applicationCommand_"] > span[class*="selectedPill_"]{
     border-color: var(--brand-500) !important;
 }
+
+/* remove gif-favorite / unfavorite button background */
+ div[class*="gifFavoriteButton_"]{
+    background-color: transparent;
+ }
