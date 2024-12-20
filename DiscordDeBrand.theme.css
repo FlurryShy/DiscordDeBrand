@@ -312,6 +312,8 @@ div[class*="applicationCommand_"] > span[class*="selectedPill_"]{
  }
  
  /* remove "recently played xyz" bs status */
+ /* did they remove this garbage again? */
+ /*
   div[class*="activity_"]:not(:has(> svg[class*="icon_"])):has(> div[class*="textRuler_"] > strong ){
     display:none;
- }
+ }/*
