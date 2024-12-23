@@ -249,3 +249,14 @@ div[class*="customizationSection_"][class*="preview_"] > div[class*="biteSize_"]
     --theme-text-color: var(--theme-text-color-dark);
     --theme-base-color-hsl: var(--theme-base-color-dark-hsl);
 }
+
+/* replace the dumb quest icon next to a username with the normal activity icon */
+svg[class*="questsIcon_"] > path {
+	d:path("M 10.368 12.096 L 3.456 12.096 L 3.456 10.368 L 10.368 10.368 L 10.368 12.096 Z M 13.824 8.64 L 3.456 8.64 L 3.456 6.912 L 13.824 6.912 L 13.824 8.64 Z M 13.824 5.184 L 3.456 5.184 L 3.456 3.456 L 13.824 3.456 L 13.824 5.184 Z M 15.36 0 L 1.92 0 C 0.8544 0 0 0.8544 0 1.92 L 0 15.36 C 0 16.4204 0.8596 17.28 1.92 17.28 L 15.36 17.28 C 16.4204 17.28 17.28 16.4204 17.28 15.36 L 17.28 1.92 C 17.28 0.8544 16.416 0 15.36 0 Z");
+    fill: currentcolor;
+}
+
+/* remove quest available BS when clicking on someone, probably language dependant */
+div[id*="popout_"]:has(> div > div > div > div > div > img[alt*="A game tile displaying"]) {
+    display:none;
+}
