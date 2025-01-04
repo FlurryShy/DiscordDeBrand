@@ -63,6 +63,10 @@ div[class*="biteSize_"]:not(:has(> div[class*="wrapper"])) > header > div[class*
 header > div[class*="clickable_"]:has(> svg[class*="overlayIco"]){
     top:-15px !important;
 }
+ /* move pfp on self-bots  */
+div[class*="biteSize_"]:has(> div[class*="body"] > div[class*="bot_"]) > header > div[class*="avatar_"]{
+    top:-35px !important;
+}
 
 /* max-height for popouts, scroll if too large */
 div[class*="biteSize"][class*="inner_"] > div[class*="body_"]{
