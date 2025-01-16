@@ -13,29 +13,6 @@ div[class*="biteSize_"] > header{
     min-height:40px !important;
 }
 
-/* change the margin on your own status on the lower menu bar */
-div[class*="biteSize_"]:not(:has(> div[class*="wrapper"])) > header > div >
-div[class*="visibleContainer_"]:has(> div[class*="popover_"]) > 
-div[class*="statusBubbleOuter"]{
-    margin-top: 0px;
-}
-/* fix for the above when you have no status set */
-div[class*="visibleContainer_af9888"]:NOT(div[class*="fullSize_"]) > div[class*="statusBubbleOuter"]:has( > span > div > svg[class*="addStatusIcon"]){
-    margin-top: 50px !important;
-}
-div[class*="visibleContainer_af9888"]:has(div[class*="fullSize_"]) > div[class*="statusBubbleOuter"]:has( > span > div > svg[class*="addStatusIcon"]){
-    margin-top: 40px !important;
-}
-
-/* changer position of edit / delete of your own status */
-header > div > div > div[class*="popover_"]{
-    top:40px !important;
-}
-div[class*="headerInner_"] > div > div[class*="visibleContainer_"] > div[class*="popover_"] {
-    top: -45px !important;
-    margin-right: 120px;
-}
-
 /* pull profile-details up a bit  */
 div[class*="fullSize_"]:has(> header > div > div > div > div[class*="statusBubbleOuter_"]) > div[class*="body"]{
     margin-top: -30px;
@@ -44,7 +21,6 @@ div[class*="fullSize_"]:has(> header > div > div > div > div[class*="statusBubbl
  div[class^="headerInner_"] > div[class^="headerButtons_"] > *  button{
 	z-index: 2;
 }
-
 
 /* allow for overflow of the pfp pic after removing banner*/
 div[class*="root_b9fccc"]{
@@ -90,6 +66,7 @@ div[class*="headerInner_"] > div > div[class*="visibleContainer_"] {
 div[class*="headerInner_"]:has(> div > div[class*="visibleContainer_"]){
     min-height: 90px;
 }
+
 /* margin for small profile */
 header > div > div[class*="visibleContainer_"]{
     margin-top: 25px;
@@ -115,20 +92,7 @@ button[class*="viewFullBio_"]
 	display:none;
 }
 
-/* remove thougtbubble styling */
-div[class*="statusBubbleOuter_"]{
-    border:none !important;
-    background: none;
-    background-color: transparent;
-    box-shadow: none;
-    max-width: none;
-}
 
-/* remove thoughtbubble bs */
-div[class*="statusBubbleOuter_"]::before,
-div[class*="statusBubbleOuter_"]::after{
-    display:none;
-}
 
 /* move modview / addfriend / more buttons to where they should be */
 div[class*="fullSize"] > .wrapper_cb78f1{
@@ -154,17 +118,7 @@ div[class*="none_"] > header > div > div[class^="visibleContainer_"]{
     position:inherit;
 }
 
-/* remove the small bubble bs */
-div[class*="invisibleContainer_af9888"]{
-    position:inherit;
-    height:0px;
-}
 
-/* thoughtbubble background */
-span[class*="statusBubble_"]{
-    background-color: var(--profile-body-background-color) !important;
-    border-radius: var(--radius-xs);
-}
 
 /* set max-height for large profile, needed cause of overflow */
 div[class*="fullSize_"]{
@@ -189,11 +143,7 @@ div[class*="fullSize_"] > div > svg > circle[fill="white"]{
     fill: none;
 }
 
-/* margins for small profile */
-div[class*="visibleContainer_af9888"]:NOT(div[class*="fullSize_af9888"]){
-    margin-right: 10px;
-    margin-left: 10px;
-}
+
 
 /* normalize background colors */
 div[class*="biteSize_"] {
@@ -264,3 +214,97 @@ svg[class*="questsIcon_"] > path {
 div[id*="popout_"]:has(> div > div > div > div > div > img[alt*="A game tile displaying"]) {
     display:none;
 }
+
+
+
+
+
+/* chang position of edit / delete of your own status */
+header > div > div[class*="popover_"]{
+    top:40px !important;
+}
+header > div > div > div[class*="popover_"]{
+    top:-50px !important;
+    left: calc(100% - 50px);
+    position:relative
+}
+
+/* change the margin on your own profile-status, when no status is set */
+div[class*="container_"]:NOT(div[class*="fullSize_"]) > div[class*="outer_"]:has( > span > svg[class*="addStatusIcon"]){
+    margin-top: -90px !important;
+}
+div[class*="container_"]:has(div[class*="fullSize_"]) > div[class*="outer_"]:has( > span > svg[class*="addStatusIcon"]){
+    margin-top: -20px !important;
+}
+/* reset colors and such */
+div[class*="container_"] > div[class*="outer_"]:has( > span > svg[class*="addStatusIcon"]) > span{
+    border: 1px solid var(--profile-body-background-color) !important;
+    background: none;
+    background-color: var(--profile-body-background-color) !important;
+    border-radius: var(--radius-xs);
+    box-shadow: none;
+    max-width: none;
+}
+
+/* remove bs container on large profiles */
+header > div[class*="headerInner_"] > div[class*="referenceContainer_"] > div[class*="outer_"]{
+    display:none;
+}
+
+/* reposition status on large profiles */
+header > div[class*="headerInner_"] > div[role*="tooltip"]{
+    position:unset;
+    margin-right: 10px;
+    margin-top: -20px;
+    margin-left: -20px;
+    width: 100%;
+}
+
+/* header-height for small profiles, otherwise status sits to high */
+header > div[class*="referenceContainer_"]{
+    height: 60px;
+}
+
+/* unset status positioning on small profile  */
+header > div[role*="tooltip"]{
+    position:unset;
+    width: auto;
+}
+
+/* change status design, both small and large profile */
+header > div[role*="tooltip"] > div[class*="outer_"],
+header > div[class*="headerInner_"] > div[role*="tooltip"] > div[class*="outer_"]  {
+    border: 1px solid var(--profile-body-background-color) !important;
+    background: none;
+    background-color: var(--profile-body-background-color) !important;
+    border-radius: var(--radius-xs);
+    box-shadow: none;
+    max-width: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* remove hover-color */
+header > div[role*="tooltip"]:hover{
+    --custom-status-bubble-background: unset !important;
+}
+header > div[class*="headerInner_"] > div[role*="tooltip"]:hover{
+    --custom-status-bubble-background: unset !important;
+}
+
+/* remove colors from status, both small and large profile */
+header > div[role*="tooltip"] > div[class*="outer_"] > span,
+header > div[class*="headerInner_"] > div[role*="tooltip"] > div[class*="outer_"] > span{
+    background-color: var(--profile-body-background-color) !important;
+    margin: 0px;
+}
+
+/* remove those bs bubbles, small and large profile */
+header > div[role*="tooltip"] > div[class*="outer_"]::before,
+header > div[role*="tooltip"] > div[class*="outer_"]::after,
+header > div[class*="headerInner_"] > div[role*="tooltip"] > div[class*="outer_"]::before,
+header > div[class*="headerInner_"] > div[role*="tooltip"] > div[class*="outer_"]::after {
+    display:none;
+}
+
+
