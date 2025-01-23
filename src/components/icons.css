@@ -1110,7 +1110,7 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
 .button_adca65 .lottieIcon_f73ef7 > svg {
     background: currentColor;
 }
-.button_adca65 .lottieIcon_f73ef7[style^="--__lottieIconColor: v"] > svg {
+.button_adca65 .lottieIcon_f73ef7[style^="--__lottieIconColor: var(--status-danger"]"] > svg {
     background: linear-gradient(-45deg, currentColor 12px, var(--status-danger) 0, var(--status-danger) 15px, currentColor 0);
 }
 .button_adca65 .lottieIcon_f73ef7 > svg > * {
