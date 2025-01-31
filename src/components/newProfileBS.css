@@ -1,8 +1,16 @@
 /* new profile bs */
-/* Remove Top-Banner (Image / color( */
-header > svg[class*="mask"]{
+/* Remove Top-Banner (Image / color. different for fullSize / biteSize profile */
+div[class*="fullSize_"] > header > svg[class*="mask"]{
+    height: 70px;
+    min-height: unset !important;
+}
+div[class*="fullSize_"] > header > svg[class*="mask"] > foreignObject{
     display:none;
 }
+div[class*="biteSize"] > header > svg[class*="mask"] {
+    display:none;
+}
+
 /* Remove top-banner in own profile */
 div[class*="accountProfileCard_"] > svg[class*="mask_"]{
     display:none;
