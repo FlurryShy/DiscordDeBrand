@@ -311,6 +311,11 @@ div[class*="applicationCommand_"] > span[class*="selectedPill_"]{
     background-color: transparent;
  }
  
+ /* Remove BS download apps button in server list */
+div[class*="listItem__650eb"]:has(div[class*="listItemWrapper__"] > div > svg >foreignObject > div[data-list-item-id*="guildsnav___app-download-button"]){
+    display:none;
+}
+ 
  /* remove "recently played xyz" bs status */
  /* did they remove this garbage again? */
  /*
