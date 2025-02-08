@@ -88,7 +88,7 @@ div[class*="biteSize_"]:HAS(> div[class*="body_"] > div > div > div > button)
 }
 
 /* disable hover-size-change bs and center-text single lign for status, 3 line bs for bio */
-div[class*="content_af9888"],
+div[class*="content_ab8609"],
 div[class*="descriptionClamp_"]{
     max-height: none !important;
     -webkit-line-clamp: 99;
