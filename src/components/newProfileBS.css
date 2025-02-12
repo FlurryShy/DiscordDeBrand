@@ -1,5 +1,5 @@
 /* new profile bs */
-/* Remove Top-Banner (Image / color. different for fullSize / biteSize profile */
+/* Remove Top-Banner (Image / color. different for fullSize / biteSize / side profile */
 div[class*="fullSize_"] > header > svg[class*="mask"]{
     height: 70px;
     min-height: unset !important;
@@ -8,6 +8,9 @@ div[class*="fullSize_"] > header > svg[class*="mask"] > foreignObject{
     display:none;
 }
 div[class*="biteSize"] > header > svg[class*="mask"] {
+    display:none;
+}
+header > svg > foreignObject > div[class*="banner__"]{
     display:none;
 }
 
@@ -210,6 +213,9 @@ div[class*="customizationSection_"][class*="preview_"] > div[class*="biteSize_"]
     --theme-base-color: var(--theme-base-color-dark);
     --theme-text-color: var(--theme-text-color-dark);
     --theme-base-color-hsl: var(--theme-base-color-dark-hsl);
+	--primary-800: hsl(220 calc(1*8.108%) 7.255% /1);
+    --background-floating: hsl(220 calc(1*8.108%) 7.255% /1);
+    --text-normal: oklab(0.89908 -0.00192907 -0.0048306);
 }
 
 /* replace the dumb quest icon next to a username with the normal activity icon */
