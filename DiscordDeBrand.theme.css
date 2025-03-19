@@ -75,6 +75,9 @@
 div[class*="newMemberBadge"]{
     display: none;
 }
+img[src^="https://cdn.discordapp.com/role-icons/1328931408772595762/745eb8dd92c6dd9369b456d120bd9217.webp"]{
+    display:none;
+}
 
 /* Boost-thing in servers */
 div[data-list-item-id*="channels___boosts-"]{
