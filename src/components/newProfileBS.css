@@ -155,6 +155,12 @@ div[class*="fullSize_"] > div > svg > circle[fill="white"]{
     fill: none;
 }
 
+/* remove black profile color around status */
+div[class^="avatar__"] > div > svg > rect[fill="black"],
+div[class^="avatar__"] > div > svg > circle[fill="black"]{
+    fill: #37373e;
+}
+
 
 
 /* normalize background colors */
@@ -339,6 +345,7 @@ img[class*="avatarDecoration_"]{
 
 /* fuck off with "avatar reactions" and "status reactions" */
 div[class*="avatarPopover__"],
-div[class*="biteSize_"] > header > div[role="tooltip"] > div[class*="statusPopover__"] {
+div[class*="biteSize_"] > header > div[role="tooltip"] > div[class*="statusPopover__"],
+div[class^="headerInner_"] > div[role="tooltip"] > div[class*="statusPopover__"] {
     display: none;
 }
