@@ -322,3 +322,16 @@ header > div[class*="headerInner_"] > div[role*="tooltip"] > div[class*="outer_"
 }
 
 
+/* Remove profile picture decorations */
+svg[class*="avatarDecoration_"]{
+    display: none;     
+}
+img[class*="avatarDecoration_"]{
+	/* display: none; fucks with the positioning when clicking on user pfp... wtf */
+    visibility: hidden;
+}
+
+/* Birthday decorations upsell... */
+.wrapper-C1y4Sz{
+     display: none;        
+}
