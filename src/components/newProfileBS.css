@@ -38,8 +38,8 @@ div[class*="root_b9fccc"]{
     overflow:visible;
 }
 
-/* move pfp  */
-div[class*="biteSize_"] > header > div[class*="clickable_"]{
+/* move pfp to correct place again in user-popout */
+div[class*="biteSize_"] > header > div[class*="avatar__"]{
     top:-40px !important;
 }
 /* move on your own profile on the lower menu bar  */
@@ -334,4 +334,10 @@ img[class*="avatarDecoration_"]{
 /* Birthday decorations upsell... */
 .wrapper-C1y4Sz{
      display: none;        
+}
+
+/* fuck off with "avatar reactions" and "status reactions" */
+div[class*="avatarPopover__"],
+div[class*="biteSize_"] > header > div[role="tooltip"] > div[class*="statusPopover__"] {
+    display: none;
 }
