@@ -100,7 +100,7 @@ div[class*="container_"]:has( > div[class*="containerPadding_"] > div[class*="ba
 }
 
 /* Hide Nitro gift button, language dependent*/
-button[aria-label="Send a gift"] {
+div[aria-label="Send a gift"] {
     display: none;
 }
 
@@ -281,9 +281,9 @@ div[aria-label*="Members"] > div > div[role="listitem"]{
 div[aria-label*="Members"] > div:has( > span > div > div[role="button"] ){
     display:none;
 }
-div[aria-label*="Members"] > h3:has(> span > div > div[role="button"]){
+/* div[aria-label*="Members"] > h3:has(> span > div > div[role="button"]){
     display:none;
-}
+}*/
 
 /* remove app bs from images, probably language dependant? */
 div[aria-label="Edit Image with Apps"]{
