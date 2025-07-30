@@ -1,69 +1,33 @@
 /* new profile bs */
-/* Remove Top-Banner (Image / color. different for fullSize / biteSize / side profile */
-div[class*="fullSize_"] > header > svg[class*="mask"]{
-    height: 70px;
-    min-height: unset !important;
-}
-div[class*="fullSize_"] > header > svg[class*="mask"] > foreignObject{
-    display:none;
-}
-div[class*="biteSize"] > header > svg[class*="mask"] {
-    display:none;
-}
-header > svg > foreignObject > div[class*="banner__"]{
-    display:none;
+/* Remove Top-Banner ( */
+div[class^="inner_"] > div[class^="header_"] > svg[class*="mask"] {
+    visibility: hidden;
+    min-height: 0px !important;
+    height: var(--custom-user-profile-banner-height); 
 }
 
-/* Remove top-banner in own profile */
-div[class*="accountProfileCard_"] > svg[class*="mask_"]{
-    display:none;
-}
-
-/* change min-size of popout after removing the banner */
-div[class*="biteSize_"] > header{
-    min-height:40px !important;
-}
-
-/* pull profile-details up a bit  */
-div[class*="fullSize_"]:has(> header > div > div > div > div[class*="statusBubbleOuter_"]) > div[class*="body"]{
-    margin-top: -30px;
-}
 /* fix message button in large profile not being clickable when status is set cause of the pulled up profile-details */
  div[class^="headerInner_"] > div[class^="headerButtons_"] > *  button{
 	z-index: 2;
 }
 
 /* allow for overflow of the pfp pic after removing banner*/
-div[class*="root_b9fccc"]{
-    overflow:visible;
+div[class*="user-profile-popout"],
+div[class*="user-profile-popout"] > div[class^="inner_"]{
+    overflow:visible
 }
 
-/* move pfp to correct place again in user-popout */
-div[class*="biteSize_"] > header > div[class*="avatar__"]{
-    top:-40px !important;
-}
-/* move on your own profile on the lower menu bar  */
-div[class*="biteSize_"]:not(:has(> div[class*="wrapper"])) > header > div[class*="clickable_"]{
-    top:-35px !important;
-}
 /* move pfp in profiles settings */
 header > div[class*="clickable_"]:has(> svg[class*="overlayIco"]){
     top:-15px !important;
 }
- /* move pfp on self-bots  */
-div[class*="biteSize_"]:has(> div[class*="body"] > div[class*="bot_"]) > header > div[class*="avatar_"]{
-    top:-35px !important;
-}
 
 /* max-height for popouts, scroll if too large */
-div[class*="biteSize"][class*="inner_"] > div[class*="body_"]{
+div[class^="inner_"] > div[class^="body__"]{
     max-height: 60vh;
 }
 
-/* force collapsing of the header */
-div[class*="userPopoutInner_"] > header{
-    min-height: 0px !important;
-}
+
 /* move the note below pfp pic */
 /* margin for large profile */
 div[class*="headerInner_"] > div > div[class*="visibleContainer_"] {
@@ -76,18 +40,6 @@ div[class*="headerInner_"] > div > div[class*="visibleContainer_"] {
 
 div[class*="headerInner_"]:has(> div > div[class*="visibleContainer_"]){
     min-height: 90px;
-}
-
-/* margin for small profile */
-header > div > div[class*="visibleContainer_"]{
-    margin-top: 25px;
-    position:inherit;
-}
-/* margin for own profile in the lower left */
-div[class*="biteSize_"]:HAS(> div[class*="body_"] > div > div > div > button)
- >  header > div > div[class*="visibleContainer_"]{
-	margin-top:25px;
-	position:inherit;
 }
 
 /* disable hover-size-change bs and center-text single lign for status, 3 line bs for bio */
@@ -103,20 +55,6 @@ button[class*="viewFullBio_"]
 	display:none;
 }
 
-
-
-/* move modview / addfriend / more buttons to where they should be */
-div[class*="fullSize"] > .wrapper_cb78f1{
-    min-height: 30px;
-    position: unset;
-    margin-left:auto;
-    margin-right: 12px;
-    margin-top: 12px;
-}
-.wrapper_cb78f1:empty{
-    display: inherit;
-}
-
 /* fixing the profile sidebar */
 div[class*="none_"] > header > div[class*="clickable_"]{
     top:10px !important;
@@ -127,20 +65,6 @@ div[class*="none_"] > header {
 div[class*="none_"] > header > div > div[class^="visibleContainer_"]{
     margin-top: 100px;
     position:inherit;
-}
-
-
-
-/* set max-height for large profile, needed cause of overflow */
-div[class*="fullSize_"]{
-    max-height: 100%;
-}
-
-/* border + corners detail area */
-div[class*="fullSize_"][class*="overlay_"]{
-	background: oklab(0.431938 0.00109309 -0.0132537 / 0.3) !important;
-    border:none;
-    border-radius: var(--radius-xs);
 }
 
 /* remove bs border from themed profiles */
@@ -161,18 +85,6 @@ div[class^="avatar__"] > div > svg > circle[fill="black"]{
     fill: #37373e;
 }
 
-
-
-/* normalize background colors */
-div[class*="biteSize_"] {
-    background: oklab(0.260828 0.000630535 -0.0075893) !important;
-	overflow:visible;
-}
-div[class*="fullSize_"]:NOT([class*="overlay_"])
-{
-	overflow:visible;
-    background:none !important;
-}
 
 /* message-box on popout */
 footer > div[class*="channelTextArea_"] > div[class*="inner_"]
@@ -197,14 +109,6 @@ footer > div[class*="channelTextArea_"] > div[class*="inner_"]
 }
 .buttonColor_f00225{
     background-color: var(--button-secondary-background);
-}
-
-/* fix preview of own server profile */
-div[class*="customizationSection_"][class*="preview_"] > div[class*="biteSize_"] > div > header > div > div[class*="visibleContainer_"]{
-    margin-top:30px;
-}
-div[class*="customizationSection_"][class*="preview_"] > div[class*="biteSize_"]:has( > div > header > div > div[class*="visibleContainer_"]){
-    margin-top:60px;
 }
 
 
@@ -250,13 +154,6 @@ header > div > div > div[class*="popover_"]{
     position:relative
 }
 
-/* change the margin on your own profile-status, when no status is set */
-div[class*="container_"]:NOT(div[class*="fullSize_"]) > div[class*="outer_"]:has( > span > svg[class*="addStatusIcon"]){
-    margin-top: -90px !important;
-}
-div[class*="container_"]:has(div[class*="fullSize_"]) > div[class*="outer_"]:has( > span > svg[class*="addStatusIcon"]){
-    margin-top: -20px !important;
-}
 /* reset colors and such */
 div[class*="container_"] > div[class*="outer_"]:has( > span > svg[class*="addStatusIcon"]) > span{
     border: 1px solid var(--profile-body-background-color) !important;
@@ -321,10 +218,8 @@ header > div[class*="headerInner_"] > div[role*="tooltip"] > div[class*="outer_"
 }
 
 /* remove those bs bubbles, small and large profile */
-header > div[role*="tooltip"] > div[class*="outer_"]::before,
-header > div[role*="tooltip"] > div[class*="outer_"]::after,
-header > div[class*="headerInner_"] > div[role*="tooltip"] > div[class*="outer_"]::before,
-header > div[class*="headerInner_"] > div[role*="tooltip"] > div[class*="outer_"]::after {
+div[class^="header_"] > div[role*="tooltip"] > div[class*="outer_"]::before,
+div[class^="header_"] > div[role*="tooltip"] > div[class*="outer_"]::after {
     display:none;
 }
 
@@ -345,7 +240,7 @@ img[class*="avatarDecoration_"]{
 
 /* fuck off with "avatar reactions" and "status reactions" */
 div[class*="avatarPopover__"],
-div[class*="biteSize_"] > header > div[role="tooltip"] > div[class*="statusPopover__"],
-div[class^="headerInner_"] > div[role="tooltip"] > div[class*="statusPopover__"] {
+div[class*="statusPopover__"],
+div[class*="activityPopover__"] {
     display: none;
 }
