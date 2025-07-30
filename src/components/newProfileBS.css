@@ -72,13 +72,6 @@ div[class*="userProfileOuterThemed_"]{
     padding: 0px !important;
 }
 
-/* remove white profile color around status */
-header > div > div > svg > circle[fill="white"],
-header > div > div > div > svg > circle[fill="white"],
-div[class*="fullSize_"] > div > svg > circle[fill="white"]{
-    fill: none;
-}
-
 /* remove black profile color around status */
 div[class^="avatar__"] > div > svg > rect[fill="black"],
 div[class^="avatar__"] > div > svg > circle[fill="black"]{
@@ -140,20 +133,6 @@ div[id*="popout_"]:has(> div > div > div > div > div > img[alt*="A game tile dis
     display:none;
 }
 
-
-
-
-
-/* chang position of edit / delete of your own status */
-header > div > div[class*="popover_"]{
-    top:40px !important;
-}
-header > div > div > div[class*="popover_"]{
-    top:-50px !important;
-    left: calc(100% - 50px);
-    position:relative
-}
-
 /* reset colors and such */
 div[class*="container_"] > div[class*="outer_"]:has( > span > svg[class*="addStatusIcon"]) > span{
     border: 1px solid var(--profile-body-background-color) !important;
@@ -167,49 +146,6 @@ div[class*="container_"] > div[class*="outer_"]:has( > span > svg[class*="addSta
 /* for big profiles, empty space because of bs  */
 div[class^="profileHeader__"] > div[class^="referenceContainer_"]{
     display:none;
-}
-
-/* reposition status on large profiles */
-header > div[class*="headerInner_"] > div[role*="tooltip"]{
-    position:unset;
-    margin-right: 10px;
-    margin-top: -20px;
-    margin-left: -20px;
-    width: 100%;
-}
-
-/* unset status positioning on small profile  */
-header > div[role*="tooltip"]{
-    position:unset;
-    width: auto;
-}
-
-/* change status design, both small and large profile */
-header > div[role*="tooltip"] > div[class*="outer_"],
-header > div[class*="headerInner_"] > div[role*="tooltip"] > div[class*="outer_"]  {
-    border: 1px solid var(--profile-body-background-color) !important;
-    background: none;
-    background-color: var(--profile-body-background-color) !important;
-    border-radius: var(--radius-xs);
-    box-shadow: none;
-    max-width: none;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-/* remove hover-color */
-header > div[role*="tooltip"]:hover{
-    --custom-status-bubble-background: unset !important;
-}
-header > div[class*="headerInner_"] > div[role*="tooltip"]:hover{
-    --custom-status-bubble-background: unset !important;
-}
-
-/* remove colors from status, both small and large profile */
-header > div[role*="tooltip"] > div[class*="outer_"] > span,
-header > div[class*="headerInner_"] > div[role*="tooltip"] > div[class*="outer_"] > span{
-    background-color: var(--profile-body-background-color) !important;
-    margin: 0px;
 }
 
 /* remove those bs bubbles, small and large profile */
