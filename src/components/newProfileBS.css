@@ -164,8 +164,8 @@ div[class*="container_"] > div[class*="outer_"]:has( > span > svg[class*="addSta
     max-width: none;
 }
 
-/* remove bs container on large profiles */
-header > div[class*="headerInner_"] > div[class*="referenceContainer_"] > div[class*="outer_"]{
+/* for big profiles, empty space because of bs  */
+div[class^="profileHeader__"] > div[class^="referenceContainer_"]{
     display:none;
 }
 
@@ -176,11 +176,6 @@ header > div[class*="headerInner_"] > div[role*="tooltip"]{
     margin-top: -20px;
     margin-left: -20px;
     width: 100%;
-}
-
-/* header-height for small profiles, otherwise status sits to high */
-header > div[class*="referenceContainer_"]{
-    height: 60px;
 }
 
 /* unset status positioning on small profile  */
