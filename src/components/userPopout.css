@@ -129,6 +129,10 @@ div[class*="accountProfileCard"]
   top: 15px;
   overflow: visible;
 }
+/* remove header from profile in my account settings */
+div[class^="accountProfileCard__"] > svg{
+    display:none;
+}
 
 /* Fix for Profiles in settings */
 [class*="avatarUploader"]{
