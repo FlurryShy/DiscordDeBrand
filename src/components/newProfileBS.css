@@ -18,8 +18,8 @@ div[class*="user-profile-popout"] > div[class^="inner_"]{
 }
 
 /* move pfp in profiles settings */
-header > div[class*="clickable_"]:has(> svg[class*="overlayIco"]){
-    top:-15px !important;
+div[class^="inner_"] > div[class^="header_"] > div[class*="avatar__"]{
+    top:20px !important;
 }
 
 /* max-height for popouts, scroll if too large */
