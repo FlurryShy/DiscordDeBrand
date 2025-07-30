@@ -158,7 +158,25 @@ header > div[role="tooltip"] > div::before,
 header > div[role="tooltip"] > div::after{
     display:none;
 }
-
+/* of course they changed the other user modals but didn't update the ones in settings - profiles... */
+div[class^="customizationSection"] > div[class^="outer_"]{
+    --profile-gradient-primary-color: unset !important; 
+    --profile-gradient-secondary-color: unset !important; 
+    --profile-gradient-overlay-color: unset !important; 
+    --profile-gradient-button-color: unset !important; 
+    --profile-gradient-modal-background-color: unset !important; 
+    --custom-theme-base-color-amount: unset !important; 
+    --custom-theme-text-color-amount: unset !important; 
+    --custom-theme-base-color-light-hsl: unset !important; 
+    --custom-theme-base-color-light: unset !important; 
+    --custom-theme-text-color-light: unset !important; 
+    --custom-theme-base-color-dark-hsl:unset !important; 
+    --custom-theme-base-color-dark: unset !important; 
+    --custom-theme-text-color-dark: unset !important;
+}
+div[role="tooltip"] > div[class^="outer_"]{
+    border: unset !important;
+}
 
 /* Remove BS profile effects */
 [class*="profileEffects"]{
