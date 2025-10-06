@@ -293,6 +293,7 @@ div[aria-label="Edit Image with Apps"]{
 /* remove the three emoji when hovering over a message */
 /* remove separator as well*/
 div[aria-label*="Message Actions"] > div > div:has( > div > div[class*="emoji"]),
+div[aria-label*="Message Actions"] > div > span:has( > div[aria-label*="Click to react with"]),
 div[aria-label*="Message Actions"] > div > div[class*="separator_"]{
     display:none;
 }
