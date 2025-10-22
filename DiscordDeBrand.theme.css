@@ -278,7 +278,7 @@ img[aria-label="X"]{
 div[aria-label*="Members"] > div > div[role="listitem"]{
     display:none;
 }
-div[aria-label*="Members"] > div:has( > span > div > div[role="button"] ){
+div[aria-label*="Members"] > h3:has( > span > div > div[role="button"] ){
     display:none;
 }
 /* div[aria-label*="Members"] > h3:has(> span > div > div[role="button"]){
