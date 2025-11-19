@@ -237,15 +237,15 @@ div[class*="recentGames_"]
 
 /* Change the "APP" badge to "BOT" again ... cause that is what it is */
 /* Language dependant cause they re-used the "botTag" classes on forums for original posters... cause those are bots / apps apparently... */
-span[class*="botTag_"]:NOT([aria-label*="Original Poster"]) > span[class*="botText_"],
-span[class*="botTagCozy_"]:NOT([aria-label*="Original Poster"]) > span[class*="botText_"],
-span[class*="botTagRegular_"]:NOT([aria-label*="Original Poster"]) > span[class*="botText_"]{
+span[class*="botTag_"]:NOT([class*="botTagOP__"]) > span[class*="botText_"],
+span[class*="botTagCozy_"]:NOT([class*="botTagOP__"]) > span[class*="botText_"],
+span[class*="botTagRegular_"]:NOT([class*="botTagOP__"]) > span[class*="botText_"]{
     visibility: hidden;
 }
 
-span[class*="botTag_"]:NOT([aria-label*="Original Poster"]) > span[class*="botText_"]::after,
-span[class*="botTagCozy_"]:NOT([aria-label*="Original Poster"]) > span[class*="botText_"]::after,
-span[class*="botTagRegular_"]:NOT([aria-label*="Original Poster"]) > span[class*="botText_"]::after{
+span[class*="botTag_"]:NOT([class*="botTagOP__"]) > span[class*="botText_"]::after,
+span[class*="botTagCozy_"]:NOT([class*="botTagOP__"]) > span[class*="botText_"]::after,
+span[class*="botTagRegular_"]:NOT([class*="botTagOP__"]) > span[class*="botText_"]::after{
     content:"BOT";
     visibility: visible;
     display:block;
