@@ -1,36 +1,36 @@
 /* new profile bs */
 /* Remove Top-Banner ( */
-div[class^="inner_"] > div[class^="header_"] > svg[class*="mask"] {
+div[class*="-inner"] > div[class^="-header"] > svg[class*="mask"] {
     visibility: hidden;
     min-height: 0px !important;
     height: var(--custom-user-profile-banner-height); 
 }
 
 /* fix message button in large profile not being clickable when status is set cause of the pulled up profile-details */
- div[class^="headerInner_"] > div[class^="headerButtons_"] > *  button{
+ div[class*="-headerInner"] > div[class*="-headerButtons"] > *  button{
 	z-index: 2;
 }
 
 /* allow for overflow of the pfp pic after removing banner*/
 div[class*="user-profile-popout"],
-div[class*="user-profile-popout"] > div[class^="inner_"]{
+div[class*="user-profile-popout"] > div[class*="-inner"]{
     overflow:visible
 }
 
 /* move pfp in profiles settings */
-div[class^="inner_"] > div[class^="header_"] > div[class*="avatar__"]{
+div[class*="-inner"] > div[class*="-header"] > div[class*="-avatar"]{
     top:20px !important;
 }
 
 /* max-height for popouts, scroll if too large */
-div[class^="inner_"] > div[class^="body__"]{
+div[class*="-inner"] > div[class*="-body"]{
     max-height: 60vh;
 }
 
 
 /* move the note below pfp pic */
 /* margin for large profile */
-div[class*="headerInner_"] > div > div[class*="visibleContainer_"] {
+div[class*="-headerInner"] > div > div[class*="-visibleContainer"] {
     margin-top: -15px;
     margin-left: 160px;
     margin-right: 10px;
@@ -38,49 +38,49 @@ div[class*="headerInner_"] > div > div[class*="visibleContainer_"] {
     position: inherit;
 }
 
-div[class*="headerInner_"]:has(> div > div[class*="visibleContainer_"]){
+div[class*="-headerInner"]:has(> div > div[class*="-visibleContainer"]){
     min-height: 90px;
 }
 
 /* disable hover-size-change bs and center-text single lign for status, 3 line bs for bio */
 div[class*="content_ab8609"],
-div[class*="descriptionClamp_"]{
+div[class*="-descriptionClamp"]{
     max-height: none !important;
     -webkit-line-clamp: 99;
     text-align: left;
 }
 /* remove view full bio */
-button[class*="viewFullBio_"]
+button[class*="-viewFullBio"]
 {
 	display:none;
 }
 
 /* fixing the profile sidebar */
-div[class*="none_"] > header > div[class*="clickable_"]{
+div[class*="-none"] > header > div[class*="-clickable"]{
     top:10px !important;
 }
-div[class*="none_"] > header {
+div[class*="-none"] > header {
     min-height:90px !important;
 }
-div[class*="none_"] > header > div > div[class^="visibleContainer_"]{
+div[class*="-none"] > header > div > div[class*="-visibleContainer"]{
     margin-top: 100px;
     position:inherit;
 }
 
 /* remove bs border from themed profiles */
-div[class*="userProfileOuterThemed_"]{
+div[class*="-userProfileOuterThemed"]{
     padding: 0px !important;
 }
 
 /* remove black profile color around status */
-div[class^="avatar__"] > div > svg > rect[fill="black"],
-div[class^="avatar__"] > div > svg > circle[fill="black"]{
+div[class*="-avatar"] > div > svg > rect[fill="black"],
+div[class*="-avatar"] > div > svg > circle[fill="black"]{
     fill: #37373e;
 }
 
 
 /* message-box on popout */
-footer > div[class*="channelTextArea_"] > div[class*="inner_"]
+footer > div[class*="-channelTextArea"] > div[class*="-inner"]
 {
     background: rgba(255, 255, 255, 0.1)
 }
@@ -123,18 +123,18 @@ footer > div[class*="channelTextArea_"] > div[class*="inner_"]
 }
 
 /* replace the dumb quest icon next to a username with the normal activity icon */
-svg[class*="questsIcon_"] > path {
+svg[class*="-questsIcon"] > path {
 	d:path("M 10.368 12.096 L 3.456 12.096 L 3.456 10.368 L 10.368 10.368 L 10.368 12.096 Z M 13.824 8.64 L 3.456 8.64 L 3.456 6.912 L 13.824 6.912 L 13.824 8.64 Z M 13.824 5.184 L 3.456 5.184 L 3.456 3.456 L 13.824 3.456 L 13.824 5.184 Z M 15.36 0 L 1.92 0 C 0.8544 0 0 0.8544 0 1.92 L 0 15.36 C 0 16.4204 0.8596 17.28 1.92 17.28 L 15.36 17.28 C 16.4204 17.28 17.28 16.4204 17.28 15.36 L 17.28 1.92 C 17.28 0.8544 16.416 0 15.36 0 Z");
     fill: currentcolor;
 }
 
 /* remove quest available BS when clicking on someone, probably language dependant */
-div[id*="popout_"]:has(> div > div > div > div > div > img[alt*="A game tile displaying"]) {
+div[id*="-popout"]:has(> div > div > div > div > div > img[alt*="A game tile displaying"]) {
     display:none;
 }
 
 /* reset colors and such */
-div[class*="container_"] > div[class*="outer_"]:has( > span > svg[class*="addStatusIcon"]) > span{
+div[class*="-container"] > div[class*="-outer"]:has( > span > svg[class*="addStatusIcon"]) > span{
     border: 1px solid var(--profile-body-background-color) !important;
     background: none;
     background-color: var(--profile-body-background-color) !important;
@@ -144,22 +144,22 @@ div[class*="container_"] > div[class*="outer_"]:has( > span > svg[class*="addSta
 }
 
 /* for big profiles, empty space because of bs  */
-div[class^="profileHeader__"] > div[class^="referenceContainer_"]{
+div[class*="-profileHeader"] > div[class*="-referenceContainer"]{
     display:none;
 }
 
 /* remove those bs bubbles, small and large profile */
-div[class^="header_"] > div[role*="tooltip"] > div[class*="outer_"]::before,
-div[class^="header_"] > div[role*="tooltip"] > div[class*="outer_"]::after {
+div[class*="-header"] > div[role*="tooltip"] > div[class*="-outer"]::before,
+div[class*="-header"] > div[role*="tooltip"] > div[class*="-outer"]::after {
     display:none;
 }
 
 
 /* Remove profile picture decorations */
-svg[class*="avatarDecoration_"]{
+svg[class*="-avatarDecoration"]{
     display: none;     
 }
-img[class*="avatarDecoration_"]{
+img[class*="-avatarDecoration"]{
 	/* display: none; fucks with the positioning when clicking on user pfp... wtf */
     visibility: hidden;
 }
@@ -170,8 +170,8 @@ img[class*="avatarDecoration_"]{
 }
 
 /* fuck off with "avatar reactions" and "status reactions" */
-div[class*="avatarPopover__"],
-div[class*="statusPopover__"],
-div[class*="activityPopover__"] {
+div[class*="-avatarPopover"],
+div[class*="-statusPopover"],
+div[class*="-activityPopover"] {
     display: none;
 }
