@@ -22,12 +22,12 @@ div[class*="premiumTab"]{
 }
 
 /* Remove "themes" options in appearance */
-[class*="basicThemeSelectors_"]+section
+[class*="-basicThemeSelectors"]+section
 {
   display: none;
 }
 
-div[class*="selectionGroup_"]{
+div[class*="-selectionGroup"]{
     display:none;
 }
 
