@@ -130,7 +130,7 @@ div[class*="accountProfileCard"]
   overflow: visible;
 }
 /* remove header from profile in my account settings */
-div[class^="accountProfileCard__"] > svg{
+div[class*="-accountProfileCard"] > svg{
     display:none;
 }
 
@@ -143,7 +143,7 @@ div[class*="customizationSection"] > div[class*="userPopoutOuter"]{
     top: 25px;
 }
 /* remove upsel from profiles */
-div[class^="container_"]:has( > div[class^="artContainer__"][role="presentation"]){
+div[class*="-container"]:has( > div[class*="-artContainer"][role="presentation"]){
     display:none;
 }
 header > svg {
@@ -151,7 +151,7 @@ header > svg {
     height: 50px;
     min-height: 0px !important;
 }
-header > div[class^="avatar_"]{
+header > div[class*="-avatar"]{
     top: 5px;
 }
 header > div[role="tooltip"] > div::before,
@@ -159,7 +159,7 @@ header > div[role="tooltip"] > div::after{
     display:none;
 }
 /* of course they changed the other user modals but didn't update the ones in settings - profiles... */
-div[class^="customizationSection"] > div[class^="outer_"]{
+div[class*="customizationSection"] > div[class*="-outer"]{
     --profile-gradient-primary-color: unset !important; 
     --profile-gradient-secondary-color: unset !important; 
     --profile-gradient-overlay-color: unset !important; 
@@ -174,7 +174,7 @@ div[class^="customizationSection"] > div[class^="outer_"]{
     --custom-theme-base-color-dark: unset !important; 
     --custom-theme-text-color-dark: unset !important;
 }
-div[role="tooltip"] > div[class^="outer_"]{
+div[role="tooltip"] > div[class*="-outer"]{
     border: unset !important;
 }
 
@@ -192,6 +192,6 @@ div[role="tooltip"] > div[class^="outer_"]{
 {
   fill:black;
 }
-[class*="avatar__"] > svg > circle:first-of-type:not(:last-child) {
+[class*="-avatar"] > svg > circle:first-of-type:not(:last-child) {
     fill: black;
 }
