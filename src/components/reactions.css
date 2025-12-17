@@ -1,5 +1,5 @@
 /* Revert reactions */
-[class*="reaction_"] {
+[class*="-reaction"] {
   border-radius: .25rem;
   background: var(--background-modifier-selected);
 
@@ -11,16 +11,16 @@
     background-color:var(--background-modifier-accent);
 }
 
-[class*="reaction_"] [class*="reactionCount_"] {
+[class*="-reaction"] [class*="-reactionCount"] {
   color: var(--text-muted); /* A11Y-- */
 }
 
-[class*="reaction_"] [class*="reactionInner_"] {
+[class*="-reaction"] [class*="-reactionInner"] {
   padding: 0 .375rem;
 }
 
 /* Self reactions */
-[class*="reactionMe_"] [class*="reactionCount_"] {
+[class*="-reactionMe"] [class*="-reactionCount"] {
   color: var(--brand-experiment); /* A11Y-- */
 }
 
@@ -31,15 +31,15 @@
 }
 
 /* Reaction hover */
-[class*="reaction_"]:hover [class*="reactionCount_"] {
+[class*="-reaction"]:hover [class*="-reactionCount"] {
   color: var(--interactive-active) !important;
 }
 
-[class*="reaction_"]:hover {
+[class*="-reaction"]:hover {
   background-color: var(--background-modifier-selected);
 }
 
-[class*="reactionMe_"]:hover {
+[class*="-reactionMe"]:hover {
   background-color: var(--brand-experiment-40a);
 }
 
@@ -48,8 +48,8 @@ div[aria-label="Add Super Reaction"]{
      display: none;     
 }
 
-div[id*="message-actions-add-reaction-1"], 
-div[id*="message-add-reaction-1"]{
+div[id*="-message-actions-add-reaction-1"], 
+div[id*="-message-add-reaction-1"]{
      display: none; 
 }
 
@@ -57,28 +57,28 @@ div[id*="message-add-reaction-1"]{
 [class*="shakeReaction"]{
     animation: none !important;
 }
-[class*="reaction_"]{
+[class*="-reaction"]{
     background: var(--background-secondary);
 }
-[class*="burstGlow_"]{
+[class*="-burstGlow"]{
     box-shadow: none !important;
 }
-[class*="hideEmoji_"]{
+[class*="-hideEmoji"]{
     opacity: 1 !important;
 }
-[class*="effectsWrapper_"]{
+[class*="-effectsWrapper"]{
     display:none !important;
 }
-[class*="burstReactionTooltipPrompt_"]
+[class*="-burstReactionTooltipPrompt"]
 {
     display:none !important;
 }
-[class*="burstReactionTooltipSpacer_"]{
+[class*="-burstReactionTooltipSpacer"]{
   border-bottom: 0px !important;
   background:rgb(35, 37, 41) !important;
 }
 
 /* Remove super-reaction completely */
-[class*="reaction_"]:has([class*="burstGlow"]) {
+[class*="-reaction"]:has([class*="burstGlow"]) {
   display:none;
 }
