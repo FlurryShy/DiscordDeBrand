@@ -1,6 +1,6 @@
 /* new profile bs */
 /* Remove Top-Banner ( */
-div[class*="-inner"] > div[class^="-header"] > svg[class*="mask"] {
+div[class*="-inner"] > div[class*="-header"] > svg[class*="mask"] {
     visibility: hidden;
     min-height: 0px !important;
     height: var(--custom-user-profile-banner-height); 
