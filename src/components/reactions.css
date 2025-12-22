@@ -63,9 +63,9 @@ div[class$="-reactions"]{
 [class*="shakeReaction"]{
     animation: none !important;
 }
-[class$="-reactions"]{
+/*[class$="-reactions"]{
     background: var(--background-secondary);
-}
+}*/
 [class*="-burstGlow"]{
     box-shadow: none !important;
 }
