@@ -1,10 +1,10 @@
-/* Revert reactions */
+/* Revert reactions 
 [class*="-reaction"] {
   border-radius: .25rem;
   background: var(--background-modifier-selected);
 
   border: none;
-}
+}*/
 
 .mentioned_d5deea .reaction_f61c73,
 .mentioned_d5deea .reaction_f61c73:hover {
@@ -15,9 +15,10 @@
   color: var(--text-muted); /* A11Y-- */
 }
 
+/*
 [class*="-reaction"] [class*="-reactionInner"] {
   padding: 0 .375rem;
-}
+}*/
 
 /* Self reactions */
 [class*="-reactionMe"] [class*="-reactionCount"] {
