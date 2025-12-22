@@ -35,8 +35,8 @@
   color: var(--interactive-active) !important;
 }
 
-[class*="-reaction"]:hover {
-  background-color: var(--background-modifier-selected);
+[class$="-reaction"]:hover {
+    background-color: var(--background-base-lowest);;
 }
 
 [class*="-reactionMe"]:hover {
@@ -53,11 +53,16 @@ div[id*="-message-add-reaction-1"]{
      display: none; 
 }
 
+/* remove weird padding on bottom of reactions */
+div[class$="-reactions"]{
+    padding-bottom: 0px;
+}
+
 /* Removes Super Reaction Animations On Hover... */
 [class*="shakeReaction"]{
     animation: none !important;
 }
-[class*="-reaction"]{
+[class$="-reactions"]{
     background: var(--background-secondary);
 }
 [class*="-burstGlow"]{
