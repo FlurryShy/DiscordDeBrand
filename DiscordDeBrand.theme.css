@@ -100,7 +100,8 @@ div[class*="container_"]:has( > div[class*="containerPadding_"] > div[class*="ba
 }
 
 /* Hide Nitro gift button, language dependent*/
-div[aria-label="Give a Gift"] {
+div[aria-label="Give a Gift"],
+div[aria-label="Send a gift"] {
     display: none;
 }
 
