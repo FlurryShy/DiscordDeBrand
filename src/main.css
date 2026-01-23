@@ -222,7 +222,7 @@ body {
 
 /* Change all radio bars with the new green to the old green */
 /* In particular, this fixes the privacy and safety settings' 'keep me safe' option */
-.radioBar-bMNUI-[style*="--radio-bar-accent-color:#3ba55c"] {
+.radioBar-bMNUI-[style*="-radio-bar-accent-color:#3ba55c"] {
   --radio-bar-accent-color: var(--old-green) !important;
 }
 

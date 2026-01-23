@@ -10,7 +10,7 @@ div[class*="checked"]:not(.bd-switch-checked){
 
 /* Change all radio bars with the new green to the old green */
 /* In particular, this fixes the privacy and safety settings' 'keep me safe' option */
-.radioBar-3w9XY-[style*="--radio-bar-accent-color:hsl(139"] {
+.radioBar-3w9XY-[style*="-radio-bar-accent-color:hsl(139"] {
   --radio-bar-accent-color: var(--old-green) !important;
 }
 
