@@ -85,6 +85,6 @@ div[class*="reactions"]{
 }
 
 /* Remove super-reaction completely */
-[class*="reaction"]:has([class*="burstGlow"]) {
+[class*="reaction"]:has(> [class*="burstGlow"]) {
   display:none;
 }
