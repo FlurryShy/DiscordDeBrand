@@ -1,5 +1,5 @@
 /* Revert reactions 
-[class*="-reaction"] {
+[class*="reaction"] {
   border-radius: .25rem;
   background: var(--background-modifier-selected);
 
@@ -11,17 +11,17 @@
     background-color:var(--background-modifier-accent);
 }
 
-[class*="-reaction"] [class*="-reactionCount"] {
+[class*="reaction"] [class*="reactionCount"] {
   color: var(--text-muted); /* A11Y-- */
 }
 
 /*
-[class*="-reaction"] [class*="-reactionInner"] {
+[class*="reaction"] [class*="reactionInner"] {
   padding: 0 .375rem;
 }*/
 
 /* Self reactions */
-[class*="-reactionMe"] [class*="-reactionCount"] {
+[class*="reactionMe"] [class*="reactionCount"] {
   color: var(--brand-experiment); /* A11Y-- */
 }
 
@@ -32,15 +32,15 @@
 }
 
 /* Reaction hover */
-[class*="-reaction"]:hover [class*="-reactionCount"] {
+[class*="reaction"]:hover [class*="reactionCount"] {
   color: var(--interactive-active) !important;
 }
 
-[class$="-reaction"]:hover {
+[class*="reaction"]:hover {
     background-color: var(--background-base-lowest);;
 }
 
-[class*="-reactionMe"]:hover {
+[class*="reactionMe"]:hover {
   background-color: var(--brand-experiment-40a);
 }
 
@@ -49,13 +49,13 @@ div[aria-label="Add Super Reaction"]{
      display: none;     
 }
 
-div[id*="-message-actions-add-reaction-1"], 
-div[id*="-message-add-reaction-1"]{
+div[id*="message-actions-add-reaction-1"], 
+div[id*="message-add-reaction-1"]{
      display: none; 
 }
 
 /* remove weird padding on bottom of reactions */
-div[class$="-reactions"]{
+div[class*="reactions"]{
     padding-bottom: 0px;
 }
 
@@ -63,28 +63,28 @@ div[class$="-reactions"]{
 [class*="shakeReaction"]{
     animation: none !important;
 }
-/*[class$="-reactions"]{
+/*[class*="reactions"]{
     background: var(--background-secondary);
 }*/
-[class*="-burstGlow"]{
+[class*="burstGlow"]{
     box-shadow: none !important;
 }
-[class*="-hideEmoji"]{
+[class*="hideEmoji"]{
     opacity: 1 !important;
 }
-[class*="-effectsWrapper"]{
+[class*="effectsWrapper"]{
     display:none !important;
 }
-[class*="-burstReactionTooltipPrompt"]
+[class*="burstReactionTooltipPrompt"]
 {
     display:none !important;
 }
-[class*="-burstReactionTooltipSpacer"]{
+[class*="burstReactionTooltipSpacer"]{
   border-bottom: 0px !important;
   background:rgb(35, 37, 41) !important;
 }
 
 /* Remove super-reaction completely */
-[class*="-reaction"]:has([class*="burstGlow"]) {
+[class*="reaction"]:has([class*="burstGlow"]) {
   display:none;
 }
