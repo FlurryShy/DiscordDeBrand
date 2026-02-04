@@ -36,7 +36,7 @@
   color: var(--interactive-active) !important;
 }
 
-[class*="reaction"]:hover {
+[class^="reaction__"]:hover {
     background-color: var(--background-base-lowest);;
 }
 
