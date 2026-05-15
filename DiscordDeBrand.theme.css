@@ -275,12 +275,10 @@ img[aria-label="X"]{
   display:none
 }
 
-/* remove activity BS in members-list */
-div[aria-label*="Members"] > div > div[role="listitem"]{
-    display:none;
-}
-div[aria-label*="Members"] > h3:has( > span > div > div[role="button"] ){
-    display:none;
+/* Hide Activity Header & Cards */
+h3[class*="membersGroup_"]:has(> span[class*="headerContainer_"]),
+[class*="container_"][class*="openOnHover_"][class*="usesCardRows_"] {
+    display: none !important;
 }
 /* div[aria-label*="Members"] > h3:has(> span > div > div[role="button"]){
     display:none;
