@@ -242,6 +242,7 @@ span[class*="botTag_"]:NOT([class*="botTagOP__"]) > span[class*="botText_"],
 span[class*="botTagCozy_"]:NOT([class*="botTagOP__"]) > span[class*="botText_"],
 span[class*="botTagRegular_"]:NOT([class*="botTagOP__"]) > span[class*="botText_"]{
     visibility: hidden;
+	width: 100%;
 }
 
 span[class*="botTag_"]:NOT([class*="botTagOP__"]) > span[class*="botText_"]::after,
