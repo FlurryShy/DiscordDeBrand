@@ -278,6 +278,7 @@ img[aria-label="X"]{
 
 /* Hide Activity Header & Cards */
 h3[class*="membersGroup_"]:has(> span[class*="headerContainer_"]),
+h3[class^="membersGroup_"]:has(> div[class^="headerContainer_"]),
 [class*="container_"][class*="openOnHover_"][class*="usesCardRows_"],
 [class*="container_"][class*="openOnHover_"] {
     display: none !important;
