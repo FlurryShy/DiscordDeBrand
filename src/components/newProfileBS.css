@@ -171,7 +171,7 @@ img[class*="avatarDecoration"]{
 
 /* fuck off with "avatar reactions" and "status reactions" */
 div[class*="avatarPopover"],
-div[class*="statusPopover"],
+div[class*="statusPopover__"],
 div[class*="activityPopover"] {
-    display: none;
+    display: none !important;
 }
