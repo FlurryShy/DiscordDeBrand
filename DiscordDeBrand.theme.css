@@ -165,7 +165,7 @@ div[id*="channel-attach-activity"]{
 }
 
 /* Remove Soundboard, language dependent */
-div:has(>button[aria-label*="Open Soundboard"]){
+span:has(> div > button[aria-label*="Open Soundboard"]){
   display:none;
 }
 
