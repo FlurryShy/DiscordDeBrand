@@ -88,3 +88,7 @@ div[class*="reactions"]{
 [class*="reaction"]:has(> [class*="burstGlow"]) {
   display:none;
 }
+/* changes to shitty super-reacts again */
+[class*="reaction"]:has(> div[class^="reactionInner"] [class^="burstGlow"]) {
+  display:none;
+}
