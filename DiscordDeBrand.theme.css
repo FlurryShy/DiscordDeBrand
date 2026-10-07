@@ -283,6 +283,9 @@ h3[class^="membersGroup_"]:has(> div[class^="headerContainer_"]),
 [class*="container_"][class*="openOnHover_"] {
     display: none !important;
 }
+h3:has(> div > div[aria-label="Member List Recent Activity Settings"]){
+	display:none !important;
+}
 /* div[aria-label*="Members"] > h3:has(> span > div > div[role="button"]){
     display:none;
 }*/
@@ -295,7 +298,8 @@ div[aria-label="Edit Image with Apps"]{
 /* remove the three emoji when hovering over a message */
 /* remove separator as well*/
 div[aria-label*="Message Actions"] > div > div:has( > div > div[class*="emoji"]),
-div[aria-label*="Message Actions"] > div > span:has( > div[aria-label*="Click to react with"]),
+div[aria-label*="Message Actions"] > div > span:has( > div[aria-label^="Click to react with"]),
+div[class="vc-popover-overflow-track"] > span:has( > div[aria-label^="Click to react with"]),
 div[aria-label*="Message Actions"] > div > div[class*="separator_"]{
     display:none;
 }
