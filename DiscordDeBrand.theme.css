@@ -245,9 +245,9 @@ span[class*="botTagRegular_"]:NOT([class*="botTagOP__"]) > span[class*="botText_
 	width: 100%;
 }
 
-span[class*="botTag_"]:NOT([class*="botTagOP__"]) > span[class*="botText_"]::after,
-span[class*="botTagCozy_"]:NOT([class*="botTagOP__"]) > span[class*="botText_"]::after,
-span[class*="botTagRegular_"]:NOT([class*="botTagOP__"]) > span[class*="botText_"]::after{
+span[class*="botTag_"]:NOT([class*="botTagOP_"]) > span[class*="botText_"]::after,
+span[class*="botTagCozy_"]:NOT([class*="botTagOP_"]) > span[class*="botText_"]::after,
+span[class*="botTagRegular_"]:NOT([class*="botTagOP_"]) > span[class*="botText_"]::after{
     content:"BOT";
     visibility: visible;
     display:block;
